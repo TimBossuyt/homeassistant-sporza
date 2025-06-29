@@ -12,6 +12,8 @@ __pycache__
 coverage.xml
 .ruff_cache
 
+# Archived files
+/Template/*
 
 # Home Assistant configuration
 config/*
