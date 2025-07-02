@@ -1,12 +1,13 @@
 {
-  "domain": "integration_blueprint",
-  "name": "Integration blueprint",
+  "domain": "sporza_calendar",
+  "name": "Sporza Calendar",
   "codeowners": [
-    "@ludeeus"
+    "@TimBossuyt"
   ],
   "config_flow": true,
-  "documentation": "https://github.com/ludeeus/integration_blueprint",
+  "documentation": "https://github.com/TimBossuyt/homeassistant-sporza/",
   "iot_class": "cloud_polling",
-  "issue_tracker": "https://github.com/ludeeus/integration_blueprint/issues",
-  "version": "0.1.0"
+  "issue_tracker": "https://github.com/TimBossuyt/homeassistant-sporza/issues",
+  "version": "0.1.0",
+  "requirements": []
 }
