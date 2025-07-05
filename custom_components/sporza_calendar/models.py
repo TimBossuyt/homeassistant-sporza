@@ -6,7 +6,6 @@ from zoneinfo import ZoneInfo
 ## REMARK: All time attributes should be have timezone Europe/Brussels
 ## This is the timezone used by Sporza for all game times.
 
-
 class Game:
     """Class representing a generic game."""
 
