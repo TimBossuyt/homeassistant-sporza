@@ -17,9 +17,6 @@ This integration fetches sports schedules from the Sporza API and creates calend
 - **Rich Event Details**: Each event includes sport-specific information and direct links to the main article on [Sporza.be](https://sporza.be)
 
 ## 🏗️ Architecture
-
-### Components Built
-
 #### 1. **API Client** (`api.py`)
 - `SporzaApiClient`: Main API client for fetching data from Sporza
 - Supports fetching games by day and retrieving detailed game metadata
@@ -27,7 +24,7 @@ This integration fetches sports schedules from the Sporza API and creates calend
 
 #### 2. **Data Models** (`models.py`)
 - **Base `Game` class**: Generic sports event with common properties
-- **`CyclingGame`**: Specialized for cycling events with stage and route details
+- **`CyclingGame`**: Cycling events with stage and route details
 - **`SoccerGame`**: Soccer matches with team information
 - **`FormulaOneGame`**: F1 races with location and session details
 
@@ -38,17 +35,16 @@ This integration fetches sports schedules from the Sporza API and creates calend
 - Converts game objects to Home Assistant `CalendarEvent` format
 
 #### 4. **Configuration Flow** (`config_flow.py`)
-- Simple configuration setup (no user input required)
 - One-click installation through Home Assistant UI
 
 #### 5. **Data Coordinator** (`coordinator.py`)
-- Manages periodic data updates from the Sporza API
-- Handles caching and error recovery
+- Fetches data from via the API Client with a fixed time interval
+- Handles caching and exceptions
 
-### 📁 Project Structure
+### 📁 Integration File Structure
 ```
 custom_components/sporza_calendar/
-├── __init__.py          # Integration setup and entry points
+├── __init__.py         # Integration setup and entry points
 ├── api.py              # Sporza API client
 ├── calendar.py         # Calendar entity implementation
 ├── config_flow.py      # Configuration flow
@@ -79,18 +75,14 @@ Once installed, the integration will:
 1. Automatically fetch sports events for the coming week
 2. Create a "Sporza Calendar" entity in Home Assistant
 3. Display events in your calendar view with rich details
-4. Update every few hours with the latest schedules
+4. Update every few hours/minutes with the latest schedules
 
 ### Event Display Format
-- **Cycling**: `🚴‍♂️ Tour de France: Brussel → Gent`
+- **Cycling**: `🚴‍♂️ Tour de France: Lille Métropole → Lille Métropole`
 - **Football**: `⚽️ Jupiler Pro League: Club Brugge vs Anderlecht`
 - **Formula 1**: `🏎️ Belgian Grand Prix @ Spa-Francorchamps`
 
 ## 🔮 Future Improvements
-
-### 🎾 Sports Expansion
-Expand to cover more sports available on Sporza:
-
 ### ⚙️ Enhanced Functionality
 - **Personalization Features**:
   - User-configurable sport preferences
