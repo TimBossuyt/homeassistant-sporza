@@ -35,7 +35,7 @@ class Game:
     @property
     def description(self) -> str:
         """Return a formatted description of the game."""
-        return "Generic Game Description"
+        return "Generic Game Description (no specific details available)."
 
     def __repr__(self) -> str:
         """Return a string representation of the game."""
