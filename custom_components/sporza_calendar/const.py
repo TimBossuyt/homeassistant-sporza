@@ -4,7 +4,7 @@ from logging import Logger, getLogger
 
 LOGGER: Logger = getLogger(__package__)
 
-DOMAIN = "sporza_games"
+DOMAIN = "sporza_calendar"
 ATTRIBUTION = "Data provided by https://sporza.be/"
 
 GAME_ENDPOINTS = {
