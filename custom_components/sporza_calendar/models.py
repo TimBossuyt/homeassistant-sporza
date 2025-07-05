@@ -6,6 +6,7 @@ from zoneinfo import ZoneInfo
 ## REMARK: All time attributes should be have timezone Europe/Brussels
 ## This is the timezone used by Sporza for all game times.
 
+
 class Game:
     """Class representing a generic game."""
 
@@ -39,6 +40,7 @@ class Game:
     def __repr__(self) -> str:
         """Return a string representation of the game."""
         return f"Game(match_id={self.match_id}, sport={self.sport})"
+
 
 class CyclingGame(Game):
     """Class representing a cycling game."""
@@ -112,7 +114,6 @@ class CyclingGame(Game):
             f"📍 {start_location} → {finish_location}\n"
             f"🔗 Meer info: {self.url or 'Geen URL'}"
         )
-
 
 
 class SoccerGame(Game):

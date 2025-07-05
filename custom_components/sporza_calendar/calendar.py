@@ -6,7 +6,7 @@ https://github.com/TimBossuyt/homeassistant-sporza
 """
 
 import logging
-from datetime import UTC, datetime, timedelta
+from datetime import datetime, timedelta
 from zoneinfo import ZoneInfo
 
 from homeassistant.components.calendar import CalendarEntity, CalendarEvent
@@ -44,7 +44,6 @@ class SporzaCalendar(CoordinatorEntity, CalendarEntity):
     @property
     def event(self) -> CalendarEvent | None:
         """Return the current or next upcoming event."""
-        ## TODO (@TimBossuyt): Update to also include the current event
         events = self._get_upcoming_events()
         if events:
             return events[0]
@@ -52,7 +51,7 @@ class SporzaCalendar(CoordinatorEntity, CalendarEntity):
 
     async def async_get_events(
         self,
-        hass: HomeAssistant,
+        hass: HomeAssistant,  # noqa: ARG002
         start_date: datetime,
         end_date: datetime,
     ) -> list[CalendarEvent]:
