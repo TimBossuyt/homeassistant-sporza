@@ -6,7 +6,8 @@ https://github.com/TimBossuyt/homeassistant-sporza
 """
 
 import logging
-from datetime import datetime, timedelta
+from datetime import UTC, datetime, timedelta
+from zoneinfo import ZoneInfo
 
 from homeassistant.components.calendar import CalendarEntity, CalendarEvent
 from homeassistant.config_entries import ConfigEntry
@@ -72,7 +73,8 @@ class SporzaCalendar(CoordinatorEntity, CalendarEntity):
 
         if not self.coordinator.data:
             return events
-        # The coordinator data is organized by date -> sport -> list of match IDs
+
+        # Coordinator data: {date_key: [game_objects]}
         for date_key, game_objects in self.coordinator.data.items():
             # Convert date_key to datetime for comparison
             if isinstance(date_key, str):
@@ -83,22 +85,29 @@ class SporzaCalendar(CoordinatorEntity, CalendarEntity):
             else:
                 event_date = datetime.combine(date_key, datetime.min.time())
 
-            # Make sure the datetime is timezone aware
+            # Set timezone to UTC if not already set
             if event_date.tzinfo is None:
                 event_date = event_date.replace(tzinfo=dt_util.UTC)
-            event_date = dt_util.as_local(event_date)
 
             # Only include events within our date range
+            # (Should be always true as the API takes care of this)
             if start_date.date() <= event_date.date() <= end_date.date():
                 for game in game_objects:
                     # Create a unique UUID
                     event_date_str = event_date.strftime("%Y-%m-%d")
                     unique_id = f"sporza_{game.sport}_{game.match_id}_{event_date_str}"
 
+                    start_time = datetime.combine(
+                        event_date, game.start_time, tzinfo=ZoneInfo("Europe/Brussels")
+                    )
+                    end_time = datetime.combine(
+                        event_date, game.end_time, tzinfo=ZoneInfo("Europe/Brussels")
+                    )
+
                     # Create a calendar event for each match
                     event = CalendarEvent(
-                        start=event_date,
-                        end=event_date + timedelta(hours=2),  # 2-hour duration
+                        start=start_time,
+                        end=end_time,
                         summary=game.name,
                         description=game.description,
                         uid=unique_id,

@@ -8,7 +8,7 @@ import aiohttp
 from homeassistant.util import dt as dt_util
 
 from .const import GAME_ENDPOINTS, INTERESTED_LABELS
-from .models import CyclingGame, Game, SoccerGame, FormulaOneGame
+from .models import CyclingGame, FormulaOneGame, Game, SoccerGame
 
 _LOGGER = logging.getLogger(__name__)
 
@@ -37,6 +37,7 @@ class SporzaApiClient:
                     all_games_for_day.append(game)
 
             week_games[day] = all_games_for_day
+
         return week_games
 
     async def async_fetch_game_object_by_id(self, match_id: str, sport: str) -> Game:
