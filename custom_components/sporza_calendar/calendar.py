@@ -20,6 +20,7 @@ from .coordinator import SporzaCalendarDataUpdateCoordinator
 
 _LOGGER = logging.getLogger(__name__)
 
+
 async def async_setup_entry(
     hass: HomeAssistant,
     config_entry: ConfigEntry,
@@ -41,7 +42,8 @@ class SporzaCalendar(CoordinatorEntity, CalendarEntity):
 
     @property
     def event(self) -> CalendarEvent | None:
-        """Return the next upcoming event."""
+        """Return the current or next upcoming event."""
+        ## TODO (@TimBossuyt): Update to also include the current event
         events = self._get_upcoming_events()
         if events:
             return events[0]
@@ -67,15 +69,11 @@ class SporzaCalendar(CoordinatorEntity, CalendarEntity):
     ) -> list[CalendarEvent]:
         """Get events within a specific date range."""
         events = []
-        seen_uids = set()
 
         if not self.coordinator.data:
             return events
-
-        _LOGGER.debug("Coordinator data: %s", self.coordinator.data)
-
         # The coordinator data is organized by date -> sport -> list of match IDs
-        for date_key, sports_data in self.coordinator.data.items():
+        for date_key, game_objects in self.coordinator.data.items():
             # Convert date_key to datetime for comparison
             if isinstance(date_key, str):
                 try:
@@ -92,35 +90,23 @@ class SporzaCalendar(CoordinatorEntity, CalendarEntity):
 
             # Only include events within our date range
             if start_date.date() <= event_date.date() <= end_date.date():
-                for sport, match_ids in sports_data.items():
-                    if not match_ids:  # Skip if no matches for this sport
-                        continue
+                for game in game_objects:
+                    # Create a unique UUID
+                    event_date_str = event_date.strftime("%Y-%m-%d")
+                    unique_id = f"sporza_{game.sport}_{game.match_id}_{event_date_str}"
 
-                    for match_id in match_ids:
-                        # Create a more robust UID using the actual date
-                        event_date_str = event_date.strftime("%Y-%m-%d")
-                        unique_id = f"sporza_{sport}_{match_id}_{event_date_str}"
-
-                        # Skip if we've already seen this UID
-                        if unique_id in seen_uids:
-                            _LOGGER.debug("Skipping duplicate event: %s", unique_id)
-                            continue
-                        seen_uids.add(unique_id)
-
-                        # Create a calendar event for each match
-                        event = CalendarEvent(
-                            start=event_date,
-                            end=event_date + timedelta(hours=2),  # 2-hour duration
-                            summary=f"{sport.capitalize()} Match",
-                            description=f"Sporza {sport} match (ID: {match_id})",
-                            uid=unique_id,
-                        )
-                        events.append(event)
-                        _LOGGER.debug("Created event: %s", unique_id)
+                    # Create a calendar event for each match
+                    event = CalendarEvent(
+                        start=event_date,
+                        end=event_date + timedelta(hours=2),  # 2-hour duration
+                        summary=game.name,
+                        description=game.description,
+                        uid=unique_id,
+                    )
+                    events.append(event)
 
         # Sort events by start time
         events.sort(key=lambda x: x.start)
-        _LOGGER.debug("Total events created: %d", len(events))
         return events
 
     @property

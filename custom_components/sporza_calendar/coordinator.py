@@ -19,6 +19,7 @@ from .api import SporzaApiClient
 
 _LOGGER = logging.getLogger(__name__)
 
+
 class SporzaCalendarDataUpdateCoordinator(DataUpdateCoordinator):
     """Class to manage fetching data from the Sporza API."""
 
@@ -49,10 +50,6 @@ class SporzaCalendarDataUpdateCoordinator(DataUpdateCoordinator):
         try:
             _LOGGER.info("Fetching games for the coming week from Sporza API")
             data = await self.sporza_api.async_fetch_games_coming_week()
-            _LOGGER.info(
-                "Games for the coming week: %s",
-                ", ".join(str(day) for day in data),
-            )
         except Exception as exception:
             _LOGGER.exception("Error fetching data from Sporza API")
             message = f"Error fetching data from Sporza API: {exception}"

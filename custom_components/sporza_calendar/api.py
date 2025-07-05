@@ -8,8 +8,10 @@ import aiohttp
 from homeassistant.util import dt as dt_util
 
 from .const import GAME_ENDPOINTS, INTERESTED_LABELS
+from .models import CyclingGame, Game, SoccerGame, FormulaOneGame
 
 _LOGGER = logging.getLogger(__name__)
+
 
 class SporzaApiClient:
     """Sporza API Client."""
@@ -25,10 +27,43 @@ class SporzaApiClient:
 
         week_games = {}
         for day in week_dates:
-            games = await self.async_fetch_games_by_day(day)
-            week_games[day] = games
+            games_id = await self.async_fetch_games_by_day(day)
 
+            ## Convert dict keys to game objects
+            all_games_for_day = []
+            for sport, match_ids in games_id.items():
+                for match_id in match_ids:
+                    game = await self.async_fetch_game_object_by_id(match_id, sport)
+                    all_games_for_day.append(game)
+
+            week_games[day] = all_games_for_day
         return week_games
+
+    async def async_fetch_game_object_by_id(self, match_id: str, sport: str) -> Game:
+        """Get game object by match ID."""
+        metadata = await self.async_fetch_game_metadata_by_id(match_id, sport)
+
+        if sport == "wielrennen":
+            return CyclingGame(
+                game_id=match_id,
+                metadata=metadata,
+            )
+        if sport == "voetbal":
+            return SoccerGame(
+                match_id=match_id,
+                metadata=metadata,
+            )
+        if sport == "formule1":
+            return FormulaOneGame(
+                match_id=match_id,
+                metadata=metadata,
+            )
+
+        return Game(
+            match_id=match_id,
+            sport=sport,
+            metadata=metadata,
+        )
 
     async def async_fetch_games_by_day(self, day: date | None) -> dict:
         """Get games for a specific day from the Sporza API."""
@@ -60,7 +95,9 @@ class SporzaApiClient:
 
         async with self._session.get(url) as response:
             response.raise_for_status()
-            return (await response.json()).get("componentProps", {})
+            text = await response.text()
+            data = json.loads(text)
+            return data.get("componentProps", {})
 
     def __parse_schedule(self, data: dict) -> dict:
         """
