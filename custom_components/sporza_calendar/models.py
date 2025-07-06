@@ -256,7 +256,7 @@ class TennisGame(Game):
 
     @property
     def description(self) -> str:
-        """Return a formatted description of the tennis game, with emojis."""
+        """Return a formatted description of the tennis game."""
         return (
             f"🎾 {self.competition_name}:\n"
             f"👤 Spelers: {self.home_player} vs {self.away_player}\n"

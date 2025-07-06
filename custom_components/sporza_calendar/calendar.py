@@ -102,7 +102,6 @@ class SporzaCalendar(CoordinatorEntity, CalendarEntity):
                 event_date = event_date.replace(tzinfo=dt_util.UTC)
 
             # Only include events within our date range
-            # (Should be always true as the API takes care of this)
             if start_date.date() <= event_date.date() <= end_date.date():
                 for game in game_objects:
                     # Skip if the game is not of interest
