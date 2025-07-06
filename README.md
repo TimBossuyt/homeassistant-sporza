@@ -1,6 +1,6 @@
 # 🏆 Sporza Calendar Integration for Home Assistant
 
-A custom Home Assistant integration that brings Belgian sports events from [Sporza.be](https://sporza.be) directly into your Home Assistant calendar.
+A custom Home Assistant integration that brings Belgian sports events from [sporza.be](https://sporza.be) directly into your Home Assistant calendar.
 
 ## 📖 Overview
 
@@ -8,13 +8,14 @@ This integration fetches sports schedules from the Sporza API and creates calend
 
 ## ✨ Features
 - **Automated Sports Calendar**: Fetches upcoming sports events for the next 7 days
-- **Multiple Sports Support**: Currently supports (more coming soon):
-  - 🚴‍♂️ **Cycling** (Wielrennen)
-  - ⚽️ **Football/Soccer** (Voetbal)
+- **Multiple Sports Support**: Currently supports:
+  - 🚴‍♂️ **Cycling**
+  - ⚽️ **Football/Soccer**
   - 🏎️ **Formula 1**
-  - 🏀 **Basketball** (Basketbal)
+  - 🎾 **Tennis**
+  - 🏀 **Basketball** (In development)
 - **Home Assistant Calendar Integration**: Events appear in your HA calendar view
-- **Rich Event Details**: Each event includes sport-specific information and direct links to the main article on [Sporza.be](https://sporza.be)
+- **Rich Event Details**: Each event includes sport-specific information and direct links to the main article on [sporza.be](https://sporza.be)
 
 ## 🏗️ Architecture
 #### 1. **API Client** (`api.py`)
@@ -27,11 +28,12 @@ This integration fetches sports schedules from the Sporza API and creates calend
 - **`CyclingGame`**: Cycling events with stage and route details
 - **`SoccerGame`**: Soccer matches with team information
 - **`FormulaOneGame`**: F1 races with location and session details
+- **`TennisGame`**: Tennis matches per tournament
 
 (More models coming soon)
 
 #### 3. **Calendar Entity** (`calendar.py`)
-- `SporzaCalendar`: Home Assistant calendar entity
+- Different Home Assistant calender entities for each sport type
 - Converts game objects to Home Assistant `CalendarEvent` format
 
 #### 4. **Configuration Flow** (`config_flow.py`)
@@ -78,6 +80,7 @@ Once installed, the integration will:
 4. Update every few hours/minutes with the latest schedules
 
 ### Event Display Format
+Examples:
 - **Cycling**: `🚴‍♂️ Tour de France: Lille Métropole → Lille Métropole`
 - **Football**: `⚽️ Jupiler Pro League: Club Brugge vs Anderlecht`
 - **Formula 1**: `🏎️ Belgian Grand Prix @ Spa-Francorchamps`
