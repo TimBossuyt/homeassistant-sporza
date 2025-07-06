@@ -1,0 +1,79 @@
+{
+	"componentProps": {
+		"matchId": 3304909,
+		"highlight": true,
+		"sport": "cycling",
+		"status": "NOT_STARTED",
+		"label": "27/06 13:30",
+		"ariaLabel": "NK op de Weg - BEL Individuele tijdrit - vrouwen, 27/06 13:30",
+		"timeline": {
+			"label": "liveblog",
+			"sport": "cycling"
+		},
+		"eventSets": [
+			{
+				"progress": 0,
+				"items": [
+					{
+						"type": "START",
+						"icon": "cycling-start",
+						"offset": 0
+					},
+					{
+						"type": "END",
+						"icon": "cycling-finish",
+						"offset": 100
+					}
+				]
+			}
+		],
+		"ruler": [
+			{
+				"label": 0,
+				"offset": 0
+			},
+			{
+				"label": 10,
+				"offset": 50
+			},
+			{
+				"label": 20.1,
+				"offset": 100
+			}
+		],
+		"intermediates": {
+			"columns": [
+				{
+					"accessorKey": "rank",
+					"type": "Number",
+					"size": 10
+				},
+				{
+					"accessorKey": "player"
+				},
+				{
+					"accessorKey": "team"
+				},
+				{
+					"accessorKey": "result",
+					"type": "Number",
+					"typeOptions": {
+						"align": "right"
+					}
+				}
+			]
+		},
+		"groups": false,
+		"url": "https://sporza.be/nl/sport/wielrennen/~3304909/",
+		"sportApiUrl": "https://api.sporza.be/web/content/cycling/matches/3304909",
+		"competitionName": "NK op de Weg - BEL",
+		"stage": "Individuele tijdrit - vrouwen",
+		"distanceToGo": null,
+		"distance": 20.1,
+		"type": "tijdrit",
+		"typeIcon": "cycling-stopwatch",
+		"startLabel": "13:30 Brasschaat",
+		"endLabel": "14:45 Brasschaat",
+		"winners": []
+	}
+}

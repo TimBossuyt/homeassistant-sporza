@@ -1,0 +1,28 @@
+{
+	"componentType": "scoreboard",
+	"componentProps": {
+		"matchId": "3319771",
+		"highlight": false,
+		"sport": "formula1",
+		"status": "AFTER_TODAY",
+		"label": "29/06 15:00",
+		"ariaLabel": "Grote Prijs van Oostenrijk, 29/06 15:00",
+		"timeline": {
+			"label": "liveblog",
+			"sport": "formula1"
+		},
+		"groups": false,
+		"url": "https://sporza.be/nl/sport/generic/~3319771/",
+		"sportApiUrl": "https://api.sporza.be/web/content/generic/matches/3319771",
+		"heading": "speeldag undefined",
+		"competitionName": "Grote Prijs van Oostenrijk",
+		"player": {
+			"isAway": false
+		},
+		"roundsToGo": null,
+		"rounds": 71,
+		"location": "Red Bull Ring",
+		"startLabel": "15:00 ",
+		"endLabel": "17:00 "
+	}
+}

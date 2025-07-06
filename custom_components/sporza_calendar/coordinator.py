@@ -20,6 +20,45 @@ from .api import SporzaApiClient
 _LOGGER = logging.getLogger(__name__)
 
 
+class SporzaLiveDataUpdateCoordinator(DataUpdateCoordinator):
+    """Class to manage fetching live data from the Sporza API."""
+
+    def __init__(
+        self,
+        hass: HomeAssistant,
+        config_entry: ConfigEntry,
+        sporza_api: SporzaApiClient,
+    ) -> None:
+        """Initialize my coordinator."""
+        super().__init__(
+            hass,
+            _LOGGER,
+            # Name of the data. For logging purposes.
+            name="Sporza Live Data",
+            config_entry=config_entry,
+            # Polling interval. Will only be polled if there are subscribers.
+            update_interval=timedelta(seconds=30),
+            # Set always_update to `False` if the data returned from the
+            # api can be compared via `__eq__` to avoid duplicate updates
+            # being dispatched to listeners
+            always_update=True,
+        )
+        self.sporza_api = sporza_api
+
+    async def _async_update_data(self) -> list:
+        """Update data via the Sporza API client."""
+        try:
+            _LOGGER.info("Fetching live data from Sporza API")
+            ## Default to to getting today's games
+            data = await self.sporza_api.async_fetch_games_by_day(day=None)
+        except Exception as exception:
+            _LOGGER.exception("Error fetching live data from Sporza API")
+            message = f"Error fetching live data from Sporza API: {exception}"
+            raise UpdateFailed(message) from exception
+        else:
+            return data
+
+
 class SporzaCalendarDataUpdateCoordinator(DataUpdateCoordinator):
     """Class to manage fetching data from the Sporza API."""
 
@@ -37,7 +76,7 @@ class SporzaCalendarDataUpdateCoordinator(DataUpdateCoordinator):
             name="Sporza Calendar",
             config_entry=config_entry,
             # Polling interval. Will only be polled if there are subscribers.
-            update_interval=timedelta(seconds=30),
+            update_interval=timedelta(minutes=30),
             # Set always_update to `False` if the data returned from the
             # api can be compared via `__eq__` to avoid duplicate updates
             # being dispatched to listeners

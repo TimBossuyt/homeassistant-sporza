@@ -1,0 +1,2293 @@
+{
+    "componentType": "scoreboard",
+    "componentProps": {
+        "matchId": "3320485",
+        "highlight": true,
+        "sport": "basketball",
+        "status": "END",
+        "label": "einde",
+        "ariaLabel": "België tegen Tsjechië, afgelopen, 72, 60",
+        "timeline": {
+            "label": "liveblog",
+            "items": [
+                {
+                    "id": "3088347",
+                    "timestamp": 1750611961346,
+                    "label": {
+                        "label": "19:06",
+                        "iconBefore": "clock"
+                    },
+                    "type": "BASE",
+                    "title": "Einde",
+                    "text": "<p>De Belgian Cats doen wat ze moeten doen tegen een sterk Tsjechië: ze winnen de wedstrijd en daarmee ook hun poule, waardoor ze tot de finale uit het vaarwater van favoriet Frankrijk zullen blijven.</p>",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false
+                },
+                {
+                    "id": "3088346",
+                    "timestamp": 1750611885416,
+                    "label": {
+                        "label": "19:04",
+                        "iconBefore": "clock"
+                    },
+                    "type": "BASE",
+                    "title": "",
+                    "text": "<p>Voor de slotminuut haalt Mike Thibault zijn bank leeg. De starting five die het zo goed gedaan heeft, mag gaan rusten. Lisowa, die de vlam in de pan deed slaan in het 2e quarter met een sterke invalbeurt, doet er vanaf de vrijworplijn nog 2 puntjes bij.</p>",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false
+                },
+                {
+                    "id": "3088348",
+                    "timestamp": 1750611840000,
+                    "label": {
+                        "label": "19:04",
+                        "iconBefore": "clock"
+                    },
+                    "type": "MEDIAPLAYER",
+                    "title": "On the buzzer voor Meeseman",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false,
+                    "mediaplayer": {
+                        "componentProps": {
+                            "mediaReferences": [
+                                "pbs-pub-6c725eda-ffdd-4b7c-9d22-0fe9cf912f3f$vid-cc3608c4-fdff-4d3a-8a40-81c08e89b194"
+                            ],
+                            "title": "On the buzzer voor Meeseman",
+                            "type": "asset",
+                            "playerMode": "video",
+                            "aspectRatio": "16:9",
+                            "posterImageUrl": "//images.vrt.be/orig/2025/06/22/5279df0f-0c27-4878-a5b1-a7df38c39075.jpg",
+                            "aggregatorUrl": "https://media-services-public.vrt.be/vualto-video-aggregator-web/rest/external/v2",
+                            "cimId": "15zrEi9K5.psvXpTsF_ShYYh.Bipt6SfJLC52FIQIIv.f7",
+                            "mediaMetaDatas": [
+                                {
+                                    "cimMediaTracking": {
+                                        "programId": "vid-cc3608c4-fdff-4d3a-8a40-81c08e89b194",
+                                        "programName": "On the buzzer voor Meeseman",
+                                        "duration": 20,
+                                        "ct": "ce/tv",
+                                        "se": "sporza",
+                                        "st": "vid.tvi.frag.vod.free",
+                                        "tv": "vid-cc3608c4-fdff-4d3a-8a40-81c08e89b194"
+                                    },
+                                    "ebaContexts": [
+                                        {
+                                            "schema": "iglu:be.vrt/context_content_media/jsonschema/2-0-3",
+                                            "data": {
+                                                "medianame": "On the buzzer voor Meeseman",
+                                                "mediaid": "vid-cc3608c4-fdff-4d3a-8a40-81c08e89b194",
+                                                "medialength": 20050,
+                                                "mediatype": "video",
+                                                "mediasubtype": "fragment",
+                                                "streamtype": "ondemand",
+                                                "contentbrand": "sporza"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ],
+                            "showAds": false,
+                            "darkMode": false
+                        }
+                    }
+                },
+                {
+                    "id": "3088345",
+                    "timestamp": 1750611779631,
+                    "label": {
+                        "label": "19:02",
+                        "iconBefore": "clock"
+                    },
+                    "type": "BASE",
+                    "title": "",
+                    "text": "<p>Linskens loopt tegen haar 4e fout aan, maar dat mag geen probleem meer zijn met nog maar een dikke minuut te spelen.</p>",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false
+                },
+                {
+                    "id": "3088344",
+                    "timestamp": 1750611578585,
+                    "label": {
+                        "label": "18:59",
+                        "iconBefore": "clock"
+                    },
+                    "type": "BASE",
+                    "title": "",
+                    "text": "<p>Met nog minder dan 3 minuten te spelen zijn de Tsjechen toch weer tot op 11 puntjes genaderd. Bondscoach Mike Thibault neemt een time-out om zijn team even op ademen te laken komen en wat zaken bij te sturen.</p>",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false
+                },
+                {
+                    "timestamp": 1750611460120,
+                    "type": "ADVERTISEMENT",
+                    "isEditable": false,
+                    "advertisement": {
+                        "componentType": "advertisement",
+                        "componentProps": {
+                            "adType": "medium_rectangle"
+                        }
+                    }
+                },
+                {
+                    "id": "3088343",
+                    "timestamp": 1750611460119,
+                    "label": {
+                        "label": "18:57",
+                        "iconBefore": "clock"
+                    },
+                    "type": "BASE",
+                    "title": "",
+                    "text": "<p>De klok tikt nu in het voordeel van België en dat hebben de Cats goed begrepen. Ze nemen hun tijd in aanval. Julie Allemand krijgt onder de ring de fout mee en scoort 1 op 2 vanaf de vrijworplijn.</p>",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false
+                },
+                {
+                    "id": "3088342",
+                    "timestamp": 1750611367705,
+                    "label": {
+                        "label": "18:56",
+                        "iconBefore": "clock"
+                    },
+                    "type": "MEDIAPLAYER",
+                    "title": "Cats naderen een voorsprong van 20 punten",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false,
+                    "mediaplayer": {
+                        "componentProps": {
+                            "mediaReferences": [
+                                "pbs-pub-6c725eda-ffdd-4b7c-9d22-0fe9cf912f3f$vid-4928923a-f88d-413a-a14e-306f498d0276"
+                            ],
+                            "title": "Cats naderen een voorsprong van 20 punten",
+                            "type": "asset",
+                            "playerMode": "video",
+                            "aspectRatio": "16:9",
+                            "posterImageUrl": "//images.vrt.be/orig/2025/06/22/8dfaaab8-f629-468f-8540-380bee0ea8bf.jpg",
+                            "aggregatorUrl": "https://media-services-public.vrt.be/vualto-video-aggregator-web/rest/external/v2",
+                            "cimId": "15zrEi9K5.psvXpTsF_ShYYh.Bipt6SfJLC52FIQIIv.f7",
+                            "mediaMetaDatas": [
+                                {
+                                    "cimMediaTracking": {
+                                        "programId": "vid-4928923a-f88d-413a-a14e-306f498d0276",
+                                        "programName": "Cats naderen een voorsprong van 20 punten",
+                                        "duration": 54,
+                                        "ct": "ce/tv",
+                                        "se": "sporza",
+                                        "st": "vid.tvi.frag.vod.free",
+                                        "tv": "vid-4928923a-f88d-413a-a14e-306f498d0276"
+                                    },
+                                    "ebaContexts": [
+                                        {
+                                            "schema": "iglu:be.vrt/context_content_media/jsonschema/2-0-3",
+                                            "data": {
+                                                "medianame": "Cats naderen een voorsprong van 20 punten",
+                                                "mediaid": "vid-4928923a-f88d-413a-a14e-306f498d0276",
+                                                "medialength": 54000,
+                                                "mediatype": "video",
+                                                "mediasubtype": "fragment",
+                                                "streamtype": "ondemand",
+                                                "contentbrand": "sporza"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ],
+                            "showAds": true,
+                            "darkMode": false
+                        }
+                    }
+                },
+                {
+                    "id": "3088341",
+                    "timestamp": 1750611210378,
+                    "label": {
+                        "label": "18:53",
+                        "iconBefore": "clock"
+                    },
+                    "type": "BASE",
+                    "title": "65-47",
+                    "text": "<p>Een lachende Antonia Delaere: zij heeft zonet haar eerste 2 punten gemaakt, op assist van Emma Meesseman.</p>",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false
+                },
+                {
+                    "id": "3088339",
+                    "timestamp": 1750611102072,
+                    "label": {
+                        "label": "18:51",
+                        "iconBefore": "clock"
+                    },
+                    "type": "BASE",
+                    "title": "",
+                    "text": "<p>Het is de voorbije dagen al wat geweest in Brno. We hadden al een elektriciteitspanne en een lek, dit keer is het het scorebord dat dienst weigert. Dat zorgt even voor een oponthoud. We durven te denken dat de speelsters niet rouwig zijn om dit extra rustmomentje.</p>",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false
+                },
+                {
+                    "id": "3088340",
+                    "timestamp": 1750611038279,
+                    "label": {
+                        "label": "18:50",
+                        "iconBefore": "clock"
+                    },
+                    "type": "MEDIAPLAYER",
+                    "title": "5 punten op een rij van Vanloo",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false,
+                    "mediaplayer": {
+                        "componentProps": {
+                            "mediaReferences": [
+                                "pbs-pub-6c725eda-ffdd-4b7c-9d22-0fe9cf912f3f$vid-71cc0ae1-173b-4150-98f7-660510b74d4b"
+                            ],
+                            "title": "5 punten op een rij van Vanloo",
+                            "type": "asset",
+                            "playerMode": "video",
+                            "aspectRatio": "16:9",
+                            "posterImageUrl": "//images.vrt.be/orig/2025/06/22/7bc24789-76a4-4778-a0fb-9ebd7ff33a33.jpg",
+                            "aggregatorUrl": "https://media-services-public.vrt.be/vualto-video-aggregator-web/rest/external/v2",
+                            "cimId": "15zrEi9K5.psvXpTsF_ShYYh.Bipt6SfJLC52FIQIIv.f7",
+                            "mediaMetaDatas": [
+                                {
+                                    "cimMediaTracking": {
+                                        "programId": "vid-71cc0ae1-173b-4150-98f7-660510b74d4b",
+                                        "programName": "5 punten op een rij van Vanloo",
+                                        "duration": 52,
+                                        "ct": "ce/tv",
+                                        "se": "sporza",
+                                        "st": "vid.tvi.frag.vod.free",
+                                        "tv": "vid-71cc0ae1-173b-4150-98f7-660510b74d4b"
+                                    },
+                                    "ebaContexts": [
+                                        {
+                                            "schema": "iglu:be.vrt/context_content_media/jsonschema/2-0-3",
+                                            "data": {
+                                                "medianame": "5 punten op een rij van Vanloo",
+                                                "mediaid": "vid-71cc0ae1-173b-4150-98f7-660510b74d4b",
+                                                "medialength": 52070,
+                                                "mediatype": "video",
+                                                "mediasubtype": "fragment",
+                                                "streamtype": "ondemand",
+                                                "contentbrand": "sporza"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ],
+                            "showAds": true,
+                            "darkMode": false
+                        }
+                    }
+                },
+                {
+                    "id": "3088338",
+                    "timestamp": 1750611036621,
+                    "label": {
+                        "label": "18:50",
+                        "iconBefore": "clock"
+                    },
+                    "type": "BASE",
+                    "title": "",
+                    "text": "<p>Mededeling voor tv-kijkers: het journaal van 19 uur komt er stilaan aan op VRT 1, maar je kan nu al overschakelen naar VRT Canvas om niets te missen van de ontknoping van deze wedstrijd.</p>",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false
+                },
+                {
+                    "id": "3088337",
+                    "timestamp": 1750610927501,
+                    "label": {
+                        "label": "18:48",
+                        "iconBefore": "clock"
+                    },
+                    "type": "BASE",
+                    "title": "Vanloo neemt over",
+                    "text": "<p>Zonet met een driepunter, nu met een sterke drive: Vanloo legt na een knappe actie 2 punten binnen en dwingt de Tsjechische bondscoach al vroeg in het 4e quarter tot een time-out.</p>",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false
+                },
+                {
+                    "id": "3088336",
+                    "timestamp": 1750610836467,
+                    "label": {
+                        "label": "18:47",
+                        "iconBefore": "clock"
+                    },
+                    "type": "BASE",
+                    "title": "BAM! Driepunter!",
+                    "text": "<p>De Tsjechische zone wordt afgestraft door Vanloo, die vanuit de hoek haar eerste driepunter gooit. Daar is ze zichtbaar opgelucht mee: 61-46.</p>",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false
+                },
+                {
+                    "id": "3088335",
+                    "timestamp": 1750610621299,
+                    "label": {
+                        "label": "18:43",
+                        "iconBefore": "clock"
+                    },
+                    "type": "BASE",
+                    "title": "",
+                    "text": "<p>Tsjechië probeert bij de start van het 4e quarter het aanvalsspel van de Cats te ontregelen met een zone-verdediging. Hoe reageren de Belgen daarop?</p>",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false
+                },
+                {
+                    "id": "3088334",
+                    "timestamp": 1750610512450,
+                    "label": {
+                        "label": "18:41",
+                        "iconBefore": "clock"
+                    },
+                    "type": "BASE",
+                    "title": "Nog tien minuten",
+                    "text": "<p>Na het 3e quarter heeft België een voorsprong van 12 punten, na die blitzstart bij het begin van de 2e helft. Wat hebben de Tsjechen nog in de tank voor de laatste 10 minuten?</p>",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false
+                },
+                {
+                    "timestamp": 1750610391800,
+                    "type": "ADVERTISEMENT",
+                    "isEditable": false,
+                    "advertisement": {
+                        "componentType": "advertisement",
+                        "componentProps": {
+                            "adType": "medium_rectangle"
+                        }
+                    }
+                },
+                {
+                    "id": "3088333",
+                    "timestamp": 1750610391799,
+                    "label": {
+                        "label": "18:39",
+                        "iconBefore": "clock"
+                    },
+                    "type": "MEDIAPLAYER",
+                    "title": "Mooie score van Claessens",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false,
+                    "mediaplayer": {
+                        "componentProps": {
+                            "mediaReferences": [
+                                "pbs-pub-6c725eda-ffdd-4b7c-9d22-0fe9cf912f3f$vid-c40789bc-731c-4473-a6d5-cb804b3df2dc"
+                            ],
+                            "title": "Mooie score van Claessens",
+                            "type": "asset",
+                            "playerMode": "video",
+                            "aspectRatio": "16:9",
+                            "posterImageUrl": "//images.vrt.be/orig/2025/06/22/4da820c7-3004-43a3-892d-e6750cff2058.jpg",
+                            "aggregatorUrl": "https://media-services-public.vrt.be/vualto-video-aggregator-web/rest/external/v2",
+                            "cimId": "15zrEi9K5.psvXpTsF_ShYYh.Bipt6SfJLC52FIQIIv.f7",
+                            "mediaMetaDatas": [
+                                {
+                                    "cimMediaTracking": {
+                                        "programId": "vid-c40789bc-731c-4473-a6d5-cb804b3df2dc",
+                                        "programName": "Mooie score van Claessens",
+                                        "duration": 20,
+                                        "ct": "ce/tv",
+                                        "se": "sporza",
+                                        "st": "vid.tvi.frag.vod.free",
+                                        "tv": "vid-c40789bc-731c-4473-a6d5-cb804b3df2dc"
+                                    },
+                                    "ebaContexts": [
+                                        {
+                                            "schema": "iglu:be.vrt/context_content_media/jsonschema/2-0-3",
+                                            "data": {
+                                                "medianame": "Mooie score van Claessens",
+                                                "mediaid": "vid-c40789bc-731c-4473-a6d5-cb804b3df2dc",
+                                                "medialength": 20080,
+                                                "mediatype": "video",
+                                                "mediasubtype": "fragment",
+                                                "streamtype": "ondemand",
+                                                "contentbrand": "sporza"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ],
+                            "showAds": false,
+                            "darkMode": false
+                        }
+                    }
+                },
+                {
+                    "id": "3088332",
+                    "timestamp": 1750610294554,
+                    "label": {
+                        "label": "18:38",
+                        "iconBefore": "clock"
+                    },
+                    "type": "BASE",
+                    "title": "",
+                    "text": "<p>Claessens met een baseline jumper: kassa! Tsjechië leek even zijn ritme wat meer te vinden, maar Claessens tempert met deze score de opflakkerende hoop van de thuisfans.</p>",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false
+                },
+                {
+                    "id": "3088331",
+                    "timestamp": 1750609920000,
+                    "label": {
+                        "label": "18:32",
+                        "iconBefore": "clock"
+                    },
+                    "type": "MEDIAPLAYER",
+                    "title": "Cats geven gas: 55-38",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false,
+                    "mediaplayer": {
+                        "componentProps": {
+                            "mediaReferences": [
+                                "pbs-pub-6c725eda-ffdd-4b7c-9d22-0fe9cf912f3f$vid-adf0b8f5-5ea5-4306-b1e1-47c2d94a61f9"
+                            ],
+                            "title": "Cats geven gas: 55-38",
+                            "type": "asset",
+                            "playerMode": "video",
+                            "aspectRatio": "16:9",
+                            "posterImageUrl": "//images.vrt.be/orig/2025/06/22/bd2dfca2-1cfa-40f2-83ec-bba433be126c.jpg",
+                            "aggregatorUrl": "https://media-services-public.vrt.be/vualto-video-aggregator-web/rest/external/v2",
+                            "cimId": "15zrEi9K5.psvXpTsF_ShYYh.Bipt6SfJLC52FIQIIv.f7",
+                            "mediaMetaDatas": [
+                                {
+                                    "cimMediaTracking": {
+                                        "programId": "vid-adf0b8f5-5ea5-4306-b1e1-47c2d94a61f9",
+                                        "programName": "Cats geven gas: 55-38",
+                                        "duration": 51,
+                                        "ct": "ce/tv",
+                                        "se": "sporza",
+                                        "st": "vid.tvi.frag.vod.free",
+                                        "tv": "vid-adf0b8f5-5ea5-4306-b1e1-47c2d94a61f9"
+                                    },
+                                    "ebaContexts": [
+                                        {
+                                            "schema": "iglu:be.vrt/context_content_media/jsonschema/2-0-3",
+                                            "data": {
+                                                "medianame": "Cats geven gas: 55-38",
+                                                "mediaid": "vid-adf0b8f5-5ea5-4306-b1e1-47c2d94a61f9",
+                                                "medialength": 51050,
+                                                "mediatype": "video",
+                                                "mediasubtype": "fragment",
+                                                "streamtype": "ondemand",
+                                                "contentbrand": "sporza"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ],
+                            "showAds": true,
+                            "darkMode": false
+                        }
+                    }
+                },
+                {
+                    "id": "3088329",
+                    "timestamp": 1750609912253,
+                    "label": {
+                        "label": "18:31",
+                        "iconBefore": "clock"
+                    },
+                    "type": "BASE",
+                    "title": "Cats duwen door",
+                    "text": "<p>Een Tsjechische time-out kan het Belgische momentum niet verstoren, integendeel. Allemand knalt een driepunter binnen en Linskens blijft inside scoren. Zo staat er plots een kloof van 17 punten op het bord.</p>",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false
+                },
+                {
+                    "id": "3088328",
+                    "timestamp": 1750609760725,
+                    "label": {
+                        "label": "18:29",
+                        "iconBefore": "clock"
+                    },
+                    "type": "BASE",
+                    "title": "België sluipt weg",
+                    "text": "<p>In aanval is Tsjechië zijn flow wat kwijt en dat proberen ze te compenseren met gebeuk in defense. Er is nog 6'40\" te spelen en ze zitten al aan 5 ploegfouten. Dat betekent vrijworpen voor de Cats en dat moet je Emma Meesseman niet geven: 50-38.&nbsp;</p>",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false
+                },
+                {
+                    "id": "3088327",
+                    "timestamp": 1750609702953,
+                    "label": {
+                        "label": "18:28",
+                        "iconBefore": "clock"
+                    },
+                    "type": "BASE",
+                    "title": "Linskens, alweer",
+                    "text": "<p>Met een nieuwe 2 op 2 vanaf de vrijworplijn zet Linskens een kloof van 10 punten op het bord: 48-38.</p>",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false
+                },
+                {
+                    "id": "3088330",
+                    "timestamp": 1750609620000,
+                    "label": {
+                        "label": "18:27",
+                        "iconBefore": "clock"
+                    },
+                    "type": "MEDIAPLAYER",
+                    "title": "Linskens meteen raak",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false,
+                    "mediaplayer": {
+                        "componentProps": {
+                            "mediaReferences": [
+                                "pbs-pub-6c725eda-ffdd-4b7c-9d22-0fe9cf912f3f$vid-89f41697-83fc-4ad8-a889-f5a05d82fdf0"
+                            ],
+                            "title": "Linskens meteen raak",
+                            "type": "asset",
+                            "playerMode": "video",
+                            "aspectRatio": "16:9",
+                            "posterImageUrl": "//images.vrt.be/orig/2025/06/22/15983977-42aa-43d0-bcb0-979b61f1ab6b.jpg",
+                            "aggregatorUrl": "https://media-services-public.vrt.be/vualto-video-aggregator-web/rest/external/v2",
+                            "cimId": "15zrEi9K5.psvXpTsF_ShYYh.Bipt6SfJLC52FIQIIv.f7",
+                            "mediaMetaDatas": [
+                                {
+                                    "cimMediaTracking": {
+                                        "programId": "vid-89f41697-83fc-4ad8-a889-f5a05d82fdf0",
+                                        "programName": "Linskens meteen raak",
+                                        "duration": 20,
+                                        "ct": "ce/tv",
+                                        "se": "sporza",
+                                        "st": "vid.tvi.frag.vod.free",
+                                        "tv": "vid-89f41697-83fc-4ad8-a889-f5a05d82fdf0"
+                                    },
+                                    "ebaContexts": [
+                                        {
+                                            "schema": "iglu:be.vrt/context_content_media/jsonschema/2-0-3",
+                                            "data": {
+                                                "medianame": "Linskens meteen raak",
+                                                "mediaid": "vid-89f41697-83fc-4ad8-a889-f5a05d82fdf0",
+                                                "medialength": 20130,
+                                                "mediatype": "video",
+                                                "mediasubtype": "fragment",
+                                                "streamtype": "ondemand",
+                                                "contentbrand": "sporza"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ],
+                            "showAds": false,
+                            "darkMode": false
+                        }
+                    }
+                },
+                {
+                    "id": "3088326",
+                    "timestamp": 1750609618811,
+                    "label": {
+                        "label": "18:26",
+                        "iconBefore": "clock"
+                    },
+                    "type": "BASE",
+                    "title": "",
+                    "text": "<p>Emma Meesseman is even geveld na een stevige beuk van de jonge Cechova. We zijn niet geheel onpartijdig, maar kom: Meesseman verdient wel wat meer respect van de scheidsrechters.</p>",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false
+                },
+                {
+                    "id": "3088325",
+                    "timestamp": 1750609520112,
+                    "label": {
+                        "label": "18:25",
+                        "iconBefore": "clock"
+                    },
+                    "type": "BASE",
+                    "title": "Linskens voor 3",
+                    "text": "<p>Kyara Linskens drukt haar stempel in het begin van het 3e quarter. Ze mikt met veel vertrouwen een driepunter binnen: 46-37, dat is de grootste voorsprong van de Belgen tot nu toe.</p>",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false
+                },
+                {
+                    "id": "3088324",
+                    "timestamp": 1750609486920,
+                    "label": {
+                        "label": "18:24",
+                        "iconBefore": "clock"
+                    },
+                    "type": "BASE",
+                    "title": "",
+                    "text": "<p>België neemt bij de start van de 2e helft zijn tijd in aanval. De bal gaat goed rond en inside worden de Tsjechen in de fout gedwongen.</p>",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false
+                },
+                {
+                    "id": "3088323",
+                    "timestamp": 1750609415430,
+                    "label": {
+                        "label": "18:23",
+                        "iconBefore": "clock"
+                    },
+                    "type": "BASE",
+                    "title": "43-37",
+                    "text": "<p>Linskens wordt inside foutief gestopt door Cechova en straft dat af met 2 rake vrijworpen.</p>",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false
+                },
+                {
+                    "id": "3088322",
+                    "timestamp": 1750608571877,
+                    "label": {
+                        "label": "18:09",
+                        "iconBefore": "clock"
+                    },
+                    "type": "BASE",
+                    "title": "",
+                    "text": "<p>Hoeveel krachten heeft deze slopende 1e helft al gekost? Emma Meesseman speelde al 17 minuten, Julie Allemand stond al dik 16 minuten op het parket. Zij hebben ongetwijfeld al veel energie verbruikt.</p>",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false
+                },
+                {
+                    "id": "3088320",
+                    "timestamp": 1750608461588,
+                    "label": {
+                        "label": "18:07",
+                        "iconBefore": "clock"
+                    },
+                    "type": "BASE",
+                    "title": "Rust",
+                    "text": "<p>Na een bijzonder intense 1e helft mogen de Belgian Cats met een voorsprong van 4 punten gaan rusten: 41-37.<br><br>Emma Meesseman zette de toon in het 1e quarter en kreeg nadien navolging bij een ijzersterke Lisowa, die intussen ook al aan 11 punten zit.<br><br>Het driepuntpercentage van de Cats is wel zorgwekkend: 3 op 16, dat zal beter moeten na de pauze.</p>",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false
+                },
+                {
+                    "id": "3088321",
+                    "timestamp": 1750608420000,
+                    "label": {
+                        "label": "18:07",
+                        "iconBefore": "clock"
+                    },
+                    "type": "MEDIAPLAYER",
+                    "title": "Nog 2 belangrijke scores voor rust: 41-37",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false,
+                    "mediaplayer": {
+                        "componentProps": {
+                            "mediaReferences": [
+                                "pbs-pub-6c725eda-ffdd-4b7c-9d22-0fe9cf912f3f$vid-ec4f9ad6-2ba6-4cf6-bd36-28d8f826ab3f"
+                            ],
+                            "title": "Nog 2 belangrijke scores voor rust: 41-37",
+                            "type": "asset",
+                            "playerMode": "video",
+                            "aspectRatio": "16:9",
+                            "posterImageUrl": "//images.vrt.be/orig/2025/06/22/e1428c35-7b9b-4dd4-97bd-e9e9f9b2118f.jpg",
+                            "aggregatorUrl": "https://media-services-public.vrt.be/vualto-video-aggregator-web/rest/external/v2",
+                            "cimId": "15zrEi9K5.psvXpTsF_ShYYh.Bipt6SfJLC52FIQIIv.f7",
+                            "mediaMetaDatas": [
+                                {
+                                    "cimMediaTracking": {
+                                        "programId": "vid-ec4f9ad6-2ba6-4cf6-bd36-28d8f826ab3f",
+                                        "programName": "Nog 2 belangrijke scores voor rust: 41-37",
+                                        "duration": 83,
+                                        "ct": "ce/tv",
+                                        "se": "sporza",
+                                        "st": "vid.tvi.frag.vod.free",
+                                        "tv": "vid-ec4f9ad6-2ba6-4cf6-bd36-28d8f826ab3f"
+                                    },
+                                    "ebaContexts": [
+                                        {
+                                            "schema": "iglu:be.vrt/context_content_media/jsonschema/2-0-3",
+                                            "data": {
+                                                "medianame": "Nog 2 belangrijke scores voor rust: 41-37",
+                                                "mediaid": "vid-ec4f9ad6-2ba6-4cf6-bd36-28d8f826ab3f",
+                                                "medialength": 83070,
+                                                "mediatype": "video",
+                                                "mediasubtype": "fragment",
+                                                "streamtype": "ondemand",
+                                                "contentbrand": "sporza"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ],
+                            "showAds": true,
+                            "darkMode": false
+                        }
+                    }
+                },
+                {
+                    "id": "3088317",
+                    "timestamp": 1750608386459,
+                    "label": {
+                        "label": "18:06",
+                        "iconBefore": "clock"
+                    },
+                    "type": "BASE",
+                    "title": "",
+                    "text": "<p>Bij de start van het 2e quarter vroegen we ons af bij wie Emma Meesseman steun zou vinden. Lisowa heeft die taak op zich genomen: na alweer een sterke drive legt zij haar 11e punt binnen. Sterk werk.</p>",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false
+                },
+                {
+                    "id": "3088316",
+                    "timestamp": 1750608333804,
+                    "label": {
+                        "label": "18:05",
+                        "iconBefore": "clock"
+                    },
+                    "type": "BASE",
+                    "title": "",
+                    "text": "<p>Tsjechië klampt aan dankzij twee rake vrijworpen van Holesinska. De Tsjechen zijn voorlopig goed voor een 9 op 10 vanaf de vrijworplijn, België kreeg nog maar 4 vrijworpen.</p>",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false
+                },
+                {
+                    "id": "3088319",
+                    "timestamp": 1750608240000,
+                    "label": {
+                        "label": "18:04",
+                        "iconBefore": "clock"
+                    },
+                    "type": "MEDIAPLAYER",
+                    "title": "Lisowa to the rescue: 2 driepunters op rij!",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false,
+                    "mediaplayer": {
+                        "componentProps": {
+                            "mediaReferences": [
+                                "pbs-pub-6c725eda-ffdd-4b7c-9d22-0fe9cf912f3f$vid-d962b274-ef2a-4289-9b2b-7d703a5c4f54"
+                            ],
+                            "title": "Lisowa to the rescue: 2 driepunters op rij!",
+                            "type": "asset",
+                            "playerMode": "video",
+                            "aspectRatio": "16:9",
+                            "posterImageUrl": "//images.vrt.be/orig/2025/06/22/1363e382-1dfd-49fd-b542-690f995de7c4.jpg",
+                            "aggregatorUrl": "https://media-services-public.vrt.be/vualto-video-aggregator-web/rest/external/v2",
+                            "cimId": "15zrEi9K5.psvXpTsF_ShYYh.Bipt6SfJLC52FIQIIv.f7",
+                            "mediaMetaDatas": [
+                                {
+                                    "cimMediaTracking": {
+                                        "programId": "vid-d962b274-ef2a-4289-9b2b-7d703a5c4f54",
+                                        "programName": "Lisowa to the rescue: 2 driepunters op rij!",
+                                        "duration": 48,
+                                        "ct": "ce/tv",
+                                        "se": "sporza",
+                                        "st": "vid.tvi.frag.vod.free",
+                                        "tv": "vid-d962b274-ef2a-4289-9b2b-7d703a5c4f54"
+                                    },
+                                    "ebaContexts": [
+                                        {
+                                            "schema": "iglu:be.vrt/context_content_media/jsonschema/2-0-3",
+                                            "data": {
+                                                "medianame": "Lisowa to the rescue: 2 driepunters op rij!",
+                                                "mediaid": "vid-d962b274-ef2a-4289-9b2b-7d703a5c4f54",
+                                                "medialength": 48030,
+                                                "mediatype": "video",
+                                                "mediasubtype": "fragment",
+                                                "streamtype": "ondemand",
+                                                "contentbrand": "sporza"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ],
+                            "showAds": true,
+                            "darkMode": false
+                        }
+                    }
+                },
+                {
+                    "id": "3088315",
+                    "timestamp": 1750608199100,
+                    "label": {
+                        "label": "18:03",
+                        "iconBefore": "clock"
+                    },
+                    "type": "BASE",
+                    "title": "Lisowa voelt het",
+                    "text": "<p>Lisowa staat niet bekend al de beste Belgische schutter en krijgt daardoor veel ruimte van de Tsjechen.<br><br>Dat straft ze af door prompt nog een driepunter binnen te gooien: 37-33, de Tsjechische coach breekt het Belgische momentum meteen met een time-out.</p>",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false
+                },
+                {
+                    "id": "3088314",
+                    "timestamp": 1750608143161,
+                    "label": {
+                        "label": "18:02",
+                        "iconBefore": "clock"
+                    },
+                    "type": "BASE",
+                    "title": "",
+                    "text": "<p>Het is Lisowa die het deksel van de ring schiet van achter de driepuntlijn. Met nog maar de tweede Belgische bom van de match knalt zij de Cats opnieuw op voorsprong: 34-33.</p>",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false
+                },
+                {
+                    "id": "3088318",
+                    "timestamp": 1750608076629,
+                    "label": {
+                        "label": "18:01",
+                        "iconBefore": "clock"
+                    },
+                    "type": "MEDIAPLAYER",
+                    "title": "\"De ringen lijken vervloekt voor de Belgian Cats\"",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false,
+                    "mediaplayer": {
+                        "componentProps": {
+                            "mediaReferences": [
+                                "pbs-pub-6c725eda-ffdd-4b7c-9d22-0fe9cf912f3f$vid-276ee80e-80f5-40df-97cb-a48b2943b2f5"
+                            ],
+                            "title": "\"De ringen lijken vervloekt voor de Belgian Cats\"",
+                            "type": "asset",
+                            "playerMode": "video",
+                            "aspectRatio": "16:9",
+                            "posterImageUrl": "//images.vrt.be/orig/2025/06/22/8dd28861-fac8-4459-bb52-87e38c96e6f0.jpg",
+                            "aggregatorUrl": "https://media-services-public.vrt.be/vualto-video-aggregator-web/rest/external/v2",
+                            "cimId": "15zrEi9K5.psvXpTsF_ShYYh.Bipt6SfJLC52FIQIIv.f7",
+                            "mediaMetaDatas": [
+                                {
+                                    "cimMediaTracking": {
+                                        "programId": "vid-276ee80e-80f5-40df-97cb-a48b2943b2f5",
+                                        "programName": "\"De ringen lijken vervloekt voor de Belgian Cats\"",
+                                        "duration": 64,
+                                        "ct": "ce/tv",
+                                        "se": "sporza",
+                                        "st": "vid.tvi.frag.vod.free",
+                                        "tv": "vid-276ee80e-80f5-40df-97cb-a48b2943b2f5"
+                                    },
+                                    "ebaContexts": [
+                                        {
+                                            "schema": "iglu:be.vrt/context_content_media/jsonschema/2-0-3",
+                                            "data": {
+                                                "medianame": "\"De ringen lijken vervloekt voor de Belgian Cats\"",
+                                                "mediaid": "vid-276ee80e-80f5-40df-97cb-a48b2943b2f5",
+                                                "medialength": 64230,
+                                                "mediatype": "video",
+                                                "mediasubtype": "fragment",
+                                                "streamtype": "ondemand",
+                                                "contentbrand": "sporza"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ],
+                            "showAds": true,
+                            "darkMode": false
+                        }
+                    }
+                },
+                {
+                    "id": "3088312",
+                    "timestamp": 1750607989943,
+                    "label": {
+                        "label": "17:59",
+                        "iconBefore": "clock"
+                    },
+                    "type": "BASE",
+                    "title": "31-33",
+                    "text": "<p>Bij België is het even zoeken in aanval. Tsjechië heeft het momentum, dankzij de sterke Vorackova. De score van Vanloo inside doet deugd.</p>",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false
+                },
+                {
+                    "id": "3088311",
+                    "timestamp": 1750607926474,
+                    "label": {
+                        "label": "17:58",
+                        "iconBefore": "clock"
+                    },
+                    "type": "BASE",
+                    "title": "",
+                    "text": "<p>De shotjes willen maar niet vallen voor de Cats. Een driepunter van Vanloo lijkt goed gemikt, maar draait toch uit die harde Tsjechische ringen.</p>",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false
+                },
+                {
+                    "id": "3088310",
+                    "timestamp": 1750607852946,
+                    "label": {
+                        "label": "17:57",
+                        "iconBefore": "clock"
+                    },
+                    "type": "BASE",
+                    "title": "Gretige Lisowa",
+                    "text": "<p>De Belgische driepunters (1 op 11) vallen voorlopig niet en dus zoekt Lisowa haar heil inside. Knappe spin-move en een lay-up van de forward.</p>",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false
+                },
+                {
+                    "id": "3088309",
+                    "timestamp": 1750607815026,
+                    "label": {
+                        "label": "17:56",
+                        "iconBefore": "clock"
+                    },
+                    "type": "BASE",
+                    "title": "",
+                    "text": "<p>Vanaf de vrijworplijn knalt Vorackova haar team weer op voorsprong: 27-28. De fans in Brno zien het graag gebeuren.</p>",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false
+                },
+                {
+                    "id": "3088313",
+                    "timestamp": 1750607760000,
+                    "label": {
+                        "label": "17:56",
+                        "iconBefore": "clock"
+                    },
+                    "type": "MEDIAPLAYER",
+                    "title": "Cats (even?) in de problemen: 27-28",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false,
+                    "mediaplayer": {
+                        "componentProps": {
+                            "mediaReferences": [
+                                "pbs-pub-6c725eda-ffdd-4b7c-9d22-0fe9cf912f3f$vid-99064458-0299-490f-b7d0-2d38e4ffe99f"
+                            ],
+                            "title": "Cats (even?) in de problemen: 27-28",
+                            "type": "asset",
+                            "playerMode": "video",
+                            "aspectRatio": "16:9",
+                            "posterImageUrl": "//images.vrt.be/orig/2025/06/22/6403584f-54b0-43ef-8148-2b4eee2fd36d.jpg",
+                            "aggregatorUrl": "https://media-services-public.vrt.be/vualto-video-aggregator-web/rest/external/v2",
+                            "cimId": "15zrEi9K5.psvXpTsF_ShYYh.Bipt6SfJLC52FIQIIv.f7",
+                            "mediaMetaDatas": [
+                                {
+                                    "cimMediaTracking": {
+                                        "programId": "vid-99064458-0299-490f-b7d0-2d38e4ffe99f",
+                                        "programName": "Cats (even?) in de problemen: 27-28",
+                                        "duration": 74,
+                                        "ct": "ce/tv",
+                                        "se": "sporza",
+                                        "st": "vid.tvi.frag.vod.free",
+                                        "tv": "vid-99064458-0299-490f-b7d0-2d38e4ffe99f"
+                                    },
+                                    "ebaContexts": [
+                                        {
+                                            "schema": "iglu:be.vrt/context_content_media/jsonschema/2-0-3",
+                                            "data": {
+                                                "medianame": "Cats (even?) in de problemen: 27-28",
+                                                "mediaid": "vid-99064458-0299-490f-b7d0-2d38e4ffe99f",
+                                                "medialength": 74110,
+                                                "mediatype": "video",
+                                                "mediasubtype": "fragment",
+                                                "streamtype": "ondemand",
+                                                "contentbrand": "sporza"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ],
+                            "showAds": true,
+                            "darkMode": false
+                        }
+                    }
+                },
+                {
+                    "id": "3088307",
+                    "timestamp": 1750607678976,
+                    "label": {
+                        "label": "17:54",
+                        "iconBefore": "clock"
+                    },
+                    "type": "BASE",
+                    "title": "",
+                    "text": "<p>Delaere loopt tegen haar 2e fout aan en stuurt daarmee Andelova naar de vrijworplijn. De bondscoach aarzelt niet en haalt zijn starting forward naar de kant. Lisowa keert terug.</p>",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false
+                },
+                {
+                    "id": "3088306",
+                    "timestamp": 1750607639706,
+                    "label": {
+                        "label": "17:53",
+                        "iconBefore": "clock"
+                    },
+                    "type": "BASE",
+                    "title": "Linskens onder de ring",
+                    "text": "<p>Emma Meesseman scoort en laat scoren. Ze vindt Linskens in de paint en zij gebruikt haar sterke lichaam om haar tegenstandster af te houden. Makkelijke score voor de Belgische center.</p>",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false
+                },
+                {
+                    "id": "3088308",
+                    "timestamp": 1750607580000,
+                    "label": {
+                        "label": "17:53",
+                        "iconBefore": "clock"
+                    },
+                    "type": "MEDIAPLAYER",
+                    "title": "Belgen trachten voorsprong uit te bouwen: 24-21",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false,
+                    "mediaplayer": {
+                        "componentProps": {
+                            "mediaReferences": [
+                                "pbs-pub-6c725eda-ffdd-4b7c-9d22-0fe9cf912f3f$vid-71b4d5ef-8d91-4824-ac00-c681193f0844"
+                            ],
+                            "title": "Belgen trachten voorsprong uit te bouwen: 24-21",
+                            "type": "asset",
+                            "playerMode": "video",
+                            "aspectRatio": "16:9",
+                            "posterImageUrl": "//images.vrt.be/orig/2025/06/22/b2eb590c-3915-4761-9938-c55415117ae1.jpg",
+                            "aggregatorUrl": "https://media-services-public.vrt.be/vualto-video-aggregator-web/rest/external/v2",
+                            "cimId": "15zrEi9K5.psvXpTsF_ShYYh.Bipt6SfJLC52FIQIIv.f7",
+                            "mediaMetaDatas": [
+                                {
+                                    "cimMediaTracking": {
+                                        "programId": "vid-71b4d5ef-8d91-4824-ac00-c681193f0844",
+                                        "programName": "Belgen trachten voorsprong uit te bouwen: 24-21",
+                                        "duration": 78,
+                                        "ct": "ce/tv",
+                                        "se": "sporza",
+                                        "st": "vid.tvi.frag.vod.free",
+                                        "tv": "vid-71b4d5ef-8d91-4824-ac00-c681193f0844"
+                                    },
+                                    "ebaContexts": [
+                                        {
+                                            "schema": "iglu:be.vrt/context_content_media/jsonschema/2-0-3",
+                                            "data": {
+                                                "medianame": "Belgen trachten voorsprong uit te bouwen: 24-21",
+                                                "mediaid": "vid-71b4d5ef-8d91-4824-ac00-c681193f0844",
+                                                "medialength": 78010,
+                                                "mediatype": "video",
+                                                "mediasubtype": "fragment",
+                                                "streamtype": "ondemand",
+                                                "contentbrand": "sporza"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ],
+                            "showAds": true,
+                            "darkMode": false
+                        }
+                    }
+                },
+                {
+                    "id": "3088304",
+                    "timestamp": 1750607504393,
+                    "label": {
+                        "label": "17:51",
+                        "iconBefore": "clock"
+                    },
+                    "type": "BASE",
+                    "title": "Friendly bounce",
+                    "text": "<p>Emma Meesseman krijgt in de paint 2 verdedigers op zich en past de bal terug naar buiten. De extra pass is van Linskens, die Allemand vindt voor een open driepunter. Die botst op de ring en valt dan binnen: 24-21.</p>",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false
+                },
+                {
+                    "id": "3088303",
+                    "timestamp": 1750607431132,
+                    "label": {
+                        "label": "17:50",
+                        "iconBefore": "clock"
+                    },
+                    "type": "BASE",
+                    "title": "Emma, again",
+                    "text": "<p>Emma Meesseman gaat door op haar elan en is voorlopig onhoudbaar: ze zit al aan 12 punten.</p>",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false
+                },
+                {
+                    "id": "3088302",
+                    "timestamp": 1750607404649,
+                    "label": {
+                        "label": "17:50",
+                        "iconBefore": "clock"
+                    },
+                    "type": "BASE",
+                    "title": "",
+                    "text": "<p>Delaere snijdt goed naar binnen en bedient Claessens, die na een knappe beweging kan scoren. Prima samenspel.</p>",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false
+                },
+                {
+                    "id": "3088305",
+                    "timestamp": 1750607280000,
+                    "label": {
+                        "label": "17:48",
+                        "iconBefore": "clock"
+                    },
+                    "type": "MEDIAPLAYER",
+                    "title": "Sterk verdedigend Tsjechië: België blijft steken op 17-17 na eerste kwart",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false,
+                    "mediaplayer": {
+                        "componentProps": {
+                            "mediaReferences": [
+                                "pbs-pub-6c725eda-ffdd-4b7c-9d22-0fe9cf912f3f$vid-6ac47aa6-a8f8-4ea2-b74f-0ccc6352a0ab"
+                            ],
+                            "title": "Sterk verdedigend Tsjechië: België blijft steken op 17-17 na eerste kwart",
+                            "type": "asset",
+                            "playerMode": "video",
+                            "aspectRatio": "16:9",
+                            "posterImageUrl": "//images.vrt.be/orig/2025/06/22/f13d57fe-0d40-4743-a00c-71c96068bf29.jpg",
+                            "aggregatorUrl": "https://media-services-public.vrt.be/vualto-video-aggregator-web/rest/external/v2",
+                            "cimId": "15zrEi9K5.psvXpTsF_ShYYh.Bipt6SfJLC52FIQIIv.f7",
+                            "mediaMetaDatas": [
+                                {
+                                    "cimMediaTracking": {
+                                        "programId": "vid-6ac47aa6-a8f8-4ea2-b74f-0ccc6352a0ab",
+                                        "programName": "Sterk verdedigend Tsjechië: België blijft steken op 17-17 na eerste kwart",
+                                        "duration": 114,
+                                        "ct": "ce/tv",
+                                        "se": "sporza",
+                                        "st": "vid.tvi.frag.vod.free",
+                                        "tv": "vid-6ac47aa6-a8f8-4ea2-b74f-0ccc6352a0ab"
+                                    },
+                                    "ebaContexts": [
+                                        {
+                                            "schema": "iglu:be.vrt/context_content_media/jsonschema/2-0-3",
+                                            "data": {
+                                                "medianame": "Sterk verdedigend Tsjechië: België blijft steken op 17-17 na eerste kwart",
+                                                "mediaid": "vid-6ac47aa6-a8f8-4ea2-b74f-0ccc6352a0ab",
+                                                "medialength": 114010,
+                                                "mediatype": "video",
+                                                "mediasubtype": "fragment",
+                                                "streamtype": "ondemand",
+                                                "contentbrand": "sporza"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ],
+                            "showAds": true,
+                            "darkMode": false
+                        }
+                    }
+                },
+                {
+                    "id": "3088301",
+                    "timestamp": 1750607222678,
+                    "label": {
+                        "label": "17:47",
+                        "iconBefore": "clock"
+                    },
+                    "type": "BASE",
+                    "title": "Intens 1e quarter",
+                    "text": "<p>Na 10 intense minuten hebben België en Tsjechië elkaar geen duimbreed toegegeven: 17-17.<br><br>Het is Emma Meesseman die haar team op sleeptouw neemt, met voorlopig ook een goeie Linskens. Wie volgt?</p>",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false
+                },
+                {
+                    "id": "3088300",
+                    "timestamp": 1750607169007,
+                    "label": {
+                        "label": "17:46",
+                        "iconBefore": "clock"
+                    },
+                    "type": "BASE",
+                    "title": "Sterke Meesseman",
+                    "text": "<p>Wordt het weer zo'n wedstrijd waarin Emma Meesseman met niks of niemand af te stoppen is? Na knap voetenwerk en dito afwerking de paint zit ze al een 10 punten.</p>",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false
+                },
+                {
+                    "id": "3088298",
+                    "timestamp": 1750606929277,
+                    "label": {
+                        "label": "17:42",
+                        "iconBefore": "clock"
+                    },
+                    "type": "MEDIAPLAYER",
+                    "title": "Linskens mikt raak: 14-11",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false,
+                    "mediaplayer": {
+                        "componentProps": {
+                            "mediaReferences": [
+                                "pbs-pub-6c725eda-ffdd-4b7c-9d22-0fe9cf912f3f$vid-ca6147e8-e5a1-4264-9646-c2db5c09b902"
+                            ],
+                            "title": "Linskens mikt raak: 14-11",
+                            "type": "asset",
+                            "playerMode": "video",
+                            "aspectRatio": "16:9",
+                            "posterImageUrl": "//images.vrt.be/orig/2025/06/22/d316ff58-ecf2-4e16-ad91-0980d74236ce.jpg",
+                            "aggregatorUrl": "https://media-services-public.vrt.be/vualto-video-aggregator-web/rest/external/v2",
+                            "cimId": "15zrEi9K5.psvXpTsF_ShYYh.Bipt6SfJLC52FIQIIv.f7",
+                            "mediaMetaDatas": [
+                                {
+                                    "cimMediaTracking": {
+                                        "programId": "vid-ca6147e8-e5a1-4264-9646-c2db5c09b902",
+                                        "programName": "Linskens mikt raak: 14-11",
+                                        "duration": 0,
+                                        "ct": "ce/tv",
+                                        "se": "sporza",
+                                        "st": "vid.tvi.ep.vod.free",
+                                        "tv": "vid-ca6147e8-e5a1-4264-9646-c2db5c09b902"
+                                    },
+                                    "ebaContexts": [
+                                        {
+                                            "schema": "iglu:be.vrt/context_content_media/jsonschema/2-0-3",
+                                            "data": {
+                                                "medianame": "Linskens mikt raak: 14-11",
+                                                "mediaid": "vid-ca6147e8-e5a1-4264-9646-c2db5c09b902",
+                                                "medialength": 0,
+                                                "mediatype": "video",
+                                                "mediasubtype": "fragment",
+                                                "streamtype": "ondemand",
+                                                "contentbrand": "sporza"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ],
+                            "showAds": false,
+                            "darkMode": false
+                        }
+                    }
+                },
+                {
+                    "id": "3088299",
+                    "timestamp": 1750606895379,
+                    "label": {
+                        "label": "17:41",
+                        "iconBefore": "clock"
+                    },
+                    "type": "BASE",
+                    "title": "",
+                    "text": "<p>Lisowa-Mbaka zet een van haar gekende, snedige drives in en zoekt dan goed het contact op met haar verdediger. Het levert haar 2 vrijworpen op, waarvan ze er eentje benut.</p>",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false
+                },
+                {
+                    "id": "3088296",
+                    "timestamp": 1750606875599,
+                    "label": {
+                        "label": "17:41",
+                        "iconBefore": "clock"
+                    },
+                    "type": "BASE",
+                    "title": "",
+                    "text": "<p>Thibault heeft Linskens toch nog gewisseld. Becky Massey is erin gekomen.</p>",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false
+                },
+                {
+                    "id": "3088295",
+                    "timestamp": 1750606859427,
+                    "label": {
+                        "label": "17:40",
+                        "iconBefore": "clock"
+                    },
+                    "type": "QUOTE",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false,
+                    "quote": {
+                        "componentProps": {
+                            "text": "De Tsjechische dames staan op scherp.",
+                            "person": "Christophe Vandegoor",
+                            "href": ""
+                        }
+                    }
+                },
+                {
+                    "id": "3088294",
+                    "timestamp": 1750606804278,
+                    "label": {
+                        "label": "17:40",
+                        "iconBefore": "clock"
+                    },
+                    "type": "BASE",
+                    "title": "",
+                    "text": "<p>Met een ver shot zet Linskens de 14-11 op het scorebord. Aan de overkant loopt ze wel al tegen haar 2e fout aan. Dat kan wel eens een probleem worden tegen de grote Tsjechen. Mike Thibault laat haar voorlopig nog staan.</p>",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false
+                },
+                {
+                    "id": "3088297",
+                    "timestamp": 1750606740000,
+                    "label": {
+                        "label": "17:39",
+                        "iconBefore": "clock"
+                    },
+                    "type": "MEDIAPLAYER",
+                    "title": "Allemand mist driepunter, maar pakt eigen rebound en legt simpel binnen",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false,
+                    "mediaplayer": {
+                        "componentProps": {
+                            "mediaReferences": [
+                                "pbs-pub-6c725eda-ffdd-4b7c-9d22-0fe9cf912f3f$vid-e8571183-8287-4902-b5e4-8cc31286b06e"
+                            ],
+                            "title": "Allemand mist driepunter, maar pakt eigen rebound en legt simpel binnen",
+                            "type": "asset",
+                            "playerMode": "video",
+                            "aspectRatio": "16:9",
+                            "posterImageUrl": "//images.vrt.be/orig/2025/06/22/ed9b0186-3b54-42e5-a066-d37b9bb2c59d.jpg",
+                            "aggregatorUrl": "https://media-services-public.vrt.be/vualto-video-aggregator-web/rest/external/v2",
+                            "cimId": "15zrEi9K5.psvXpTsF_ShYYh.Bipt6SfJLC52FIQIIv.f7",
+                            "mediaMetaDatas": [
+                                {
+                                    "cimMediaTracking": {
+                                        "programId": "vid-e8571183-8287-4902-b5e4-8cc31286b06e",
+                                        "programName": "Allemand mist driepunter, maar pakt eigen rebound en legt simpel binnen",
+                                        "duration": 18,
+                                        "ct": "ce/tv",
+                                        "se": "sporza",
+                                        "st": "vid.tvi.frag.vod.free",
+                                        "tv": "vid-e8571183-8287-4902-b5e4-8cc31286b06e"
+                                    },
+                                    "ebaContexts": [
+                                        {
+                                            "schema": "iglu:be.vrt/context_content_media/jsonschema/2-0-3",
+                                            "data": {
+                                                "medianame": "Allemand mist driepunter, maar pakt eigen rebound en legt simpel binnen",
+                                                "mediaid": "vid-e8571183-8287-4902-b5e4-8cc31286b06e",
+                                                "medialength": 18100,
+                                                "mediatype": "video",
+                                                "mediasubtype": "fragment",
+                                                "streamtype": "ondemand",
+                                                "contentbrand": "sporza"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ],
+                            "showAds": false,
+                            "darkMode": false
+                        }
+                    }
+                },
+                {
+                    "id": "3088293",
+                    "timestamp": 1750606726779,
+                    "label": {
+                        "label": "17:38",
+                        "iconBefore": "clock"
+                    },
+                    "type": "BASE",
+                    "title": "Alerte Allemand",
+                    "text": "<p>Allemand mist haar driepunter, maar neemt zelf de rebound en legt de bal binnen: 12-11. Het is een intens wedstrijdbegin.<br><br>Opvallend: bij Tsjechië is er al veel geroteerd, terwijl bondscoach Mikte Thibault pas na ruim 5 minuten een eerste keer wisselt.</p>",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false
+                },
+                {
+                    "id": "3088292",
+                    "timestamp": 1750606615854,
+                    "label": {
+                        "label": "17:36",
+                        "iconBefore": "clock"
+                    },
+                    "type": "MEDIAPLAYER",
+                    "title": "Meesseman meteen 'on fire': 8-6",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false,
+                    "mediaplayer": {
+                        "componentProps": {
+                            "mediaReferences": [
+                                "pbs-pub-6c725eda-ffdd-4b7c-9d22-0fe9cf912f3f$vid-f6b424c2-b656-4c97-92f5-11d6c28a9de1"
+                            ],
+                            "title": "Meesseman meteen 'on fire': 8-6",
+                            "type": "asset",
+                            "playerMode": "video",
+                            "aspectRatio": "16:9",
+                            "posterImageUrl": "//images.vrt.be/orig/2025/06/22/8418fc86-1606-4633-a898-cf9aea243607.jpg",
+                            "aggregatorUrl": "https://media-services-public.vrt.be/vualto-video-aggregator-web/rest/external/v2",
+                            "cimId": "15zrEi9K5.psvXpTsF_ShYYh.Bipt6SfJLC52FIQIIv.f7",
+                            "mediaMetaDatas": [
+                                {
+                                    "cimMediaTracking": {
+                                        "programId": "vid-f6b424c2-b656-4c97-92f5-11d6c28a9de1",
+                                        "programName": "Meesseman meteen 'on fire': 8-6",
+                                        "duration": 69,
+                                        "ct": "ce/tv",
+                                        "se": "sporza",
+                                        "st": "vid.tvi.frag.vod.free",
+                                        "tv": "vid-f6b424c2-b656-4c97-92f5-11d6c28a9de1"
+                                    },
+                                    "ebaContexts": [
+                                        {
+                                            "schema": "iglu:be.vrt/context_content_media/jsonschema/2-0-3",
+                                            "data": {
+                                                "medianame": "Meesseman meteen 'on fire': 8-6",
+                                                "mediaid": "vid-f6b424c2-b656-4c97-92f5-11d6c28a9de1",
+                                                "medialength": 69200,
+                                                "mediatype": "video",
+                                                "mediasubtype": "fragment",
+                                                "streamtype": "ondemand",
+                                                "contentbrand": "sporza"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ],
+                            "showAds": true,
+                            "darkMode": false
+                        }
+                    }
+                },
+                {
+                    "id": "3088291",
+                    "timestamp": 1750606549482,
+                    "label": {
+                        "label": "17:35",
+                        "iconBefore": "clock"
+                    },
+                    "type": "BASE",
+                    "title": "Meesseman on fire",
+                    "text": "<p>Emma Meesseman vroeg vrijdag na Montenegro een reactie van het team en geeft alvast zelf het goeie voorbeeld: ze zit intussen al aan 8 punten. De kapitein neemt de Cats bij de hand.</p>",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false
+                },
+                {
+                    "id": "3088289",
+                    "timestamp": 1750606497559,
+                    "label": {
+                        "label": "17:34",
+                        "iconBefore": "clock"
+                    },
+                    "type": "BASE",
+                    "title": "",
+                    "text": "<p>Mooi samenspel bij de Cats, waar een klaar kijkende Delaere de insnijdende Meesseman vindt: 4-4.</p>",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false
+                },
+                {
+                    "id": "3088290",
+                    "timestamp": 1750606352427,
+                    "label": {
+                        "label": "17:32",
+                        "iconBefore": "clock"
+                    },
+                    "type": "MEDIAPLAYER",
+                    "title": "Allemand naar Linskens en daar is de eerste score",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false,
+                    "mediaplayer": {
+                        "componentProps": {
+                            "mediaReferences": [
+                                "pbs-pub-6c725eda-ffdd-4b7c-9d22-0fe9cf912f3f$vid-1b51dc67-516b-4066-a047-931cb8658b4d"
+                            ],
+                            "title": "Allemand naar Linskens en daar is de eerste score",
+                            "type": "asset",
+                            "playerMode": "video",
+                            "aspectRatio": "16:9",
+                            "posterImageUrl": "//images.vrt.be/orig/2025/06/22/c3b42134-3f37-44bd-8698-98cfe9f6f301.jpg",
+                            "aggregatorUrl": "https://media-services-public.vrt.be/vualto-video-aggregator-web/rest/external/v2",
+                            "cimId": "15zrEi9K5.psvXpTsF_ShYYh.Bipt6SfJLC52FIQIIv.f7",
+                            "mediaMetaDatas": [
+                                {
+                                    "cimMediaTracking": {
+                                        "programId": "vid-1b51dc67-516b-4066-a047-931cb8658b4d",
+                                        "programName": "Allemand naar Linskens en daar is de eerste score",
+                                        "duration": 0,
+                                        "ct": "ce/tv",
+                                        "se": "sporza",
+                                        "st": "vid.tvi.ep.vod.free",
+                                        "tv": "vid-1b51dc67-516b-4066-a047-931cb8658b4d"
+                                    },
+                                    "ebaContexts": [
+                                        {
+                                            "schema": "iglu:be.vrt/context_content_media/jsonschema/2-0-3",
+                                            "data": {
+                                                "medianame": "Allemand naar Linskens en daar is de eerste score",
+                                                "mediaid": "vid-1b51dc67-516b-4066-a047-931cb8658b4d",
+                                                "medialength": 0,
+                                                "mediatype": "video",
+                                                "mediasubtype": "fragment",
+                                                "streamtype": "ondemand",
+                                                "contentbrand": "sporza"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ],
+                            "showAds": false,
+                            "darkMode": false
+                        }
+                    }
+                },
+                {
+                    "id": "3088288",
+                    "timestamp": 1750606322053,
+                    "label": {
+                        "label": "17:32",
+                        "iconBefore": "clock"
+                    },
+                    "type": "BASE",
+                    "title": "",
+                    "text": "<p>Op aangeven van Julie Allemand tekent Kyara Linskens voor de eerste score van de wedstrijd.</p>",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false
+                },
+                {
+                    "id": "3088287",
+                    "timestamp": 1750606080442,
+                    "label": {
+                        "label": "17:28",
+                        "iconBefore": "clock"
+                    },
+                    "type": "BASE",
+                    "title": "Starting five",
+                    "text": "<p>Bondscoach Mike Thibault stuurde zijn vertrouwde vijftal het parket op voor de start van de wedstrijd: Julie Allemand, Julie Vanloo, Antonia Delaere, Emma Meesseman en Kyara Linskens.</p>",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false
+                },
+                {
+                    "id": "3088286",
+                    "timestamp": 1750605999635,
+                    "label": {
+                        "label": "17:26",
+                        "iconBefore": "clock"
+                    },
+                    "type": "BASE",
+                    "title": "Spanje wint zijn poule",
+                    "text": "<p>In groep D is Spanje-Zweden zonet afgelopen. De Spanjaarden wonnen na één verlenging met 75-78.<br><br>Dat betekent dat Spanje zeker is van de groepswinst, met 3 zeges uit evenveel wedstrijden.<br><br>De tegenstander van Spanje in de kwartfinales wordt de verliezer van België-Tsjechië.</p>",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false
+                },
+                {
+                    "id": "3088285",
+                    "timestamp": 1750605725249,
+                    "label": {
+                        "label": "17:22",
+                        "iconBefore": "clock"
+                    },
+                    "type": "BASE",
+                    "title": "",
+                    "text": "<p>De Belgian Cats en Tsjechië betreden het parket in Brno, waar zelfs voor deze match nog wat lege plaatsjes te zien zijn in de tribunes. Toch opmerkelijk, in een zaal van amper 3.000 toeschouwers.</p>",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false
+                },
+                {
+                    "id": "3088284",
+                    "timestamp": 1750603922048,
+                    "label": {
+                        "label": "16:52",
+                        "iconBefore": "clock"
+                    },
+                    "type": "TWITTER",
+                    "text": "",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false,
+                    "twitter": {
+                        "componentProps": {
+                            "twitterId": "1936797573185933383",
+                            "isVideo": false
+                        }
+                    }
+                },
+                {
+                    "id": "3088283",
+                    "timestamp": 1750602596675,
+                    "label": {
+                        "label": "16:29",
+                        "iconBefore": "clock"
+                    },
+                    "type": "QUOTE",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false,
+                    "quote": {
+                        "componentProps": {
+                            "text": "Tsjechië is een heel goed team. Er is een reden waarom zij hun eerste 2 matchen wonnen. Inside zijn ze heel sterk. De guards hebben meer lengte dan wij, maar wij kunnen daar wel snelheid tegenover zetten.",
+                            "person": "Mike Thibault",
+                            "href": ""
+                        }
+                    }
+                },
+                {
+                    "id": "3088282",
+                    "timestamp": 1750602337965,
+                    "label": {
+                        "label": "16:25",
+                        "iconBefore": "clock"
+                    },
+                    "type": "BASE",
+                    "title": "\"Emma mag zeggen wat zij wil\"",
+                    "text": "<p></p><p>Emma Meesseman was vrijdagavond na de match tegen Montenegro scherp, ondanks de klinkende zege: zij wil vandaag een reactie zien van de groep. Hoe kijkt bondscoach Mike Thibault naar de prikkelende reactie van zijn sterspeelster?<br><br>\"Emma mag zeggen wat zij wil\", haalt Thibault de schouders op. \"Zelf heb ik het niet op die manier gezegd. Wij hebben vooral gefocust op Tsjechië.\"<br><br>Andere of nieuwe accenten heeft Thibault daarbij niet gelegd. \"Er is niet veel veranderd. Dat zijn de dingen waar we al de hele voorbereiding aan gewerkt hebben.\"<br><br>Julie Allemand opperde dan weer dat het team misschien nood heeft aan meer structuur. \"Ze hébben structuur\", lacht Thibault dat weg. \"Ze hebben 25 plays.\"<br><br>\"Maar kijk: in een toernooi word je heel goed gescout. Je tegenstanders proberen je eerste opties uit te schakelen. De vraag is: kun je je daaraan aanpassen als ploeg tijdens de match en de juiste plays maken?\"</p><p></p>",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false
+                },
+                {
+                    "id": "3088280",
+                    "timestamp": 1750602205035,
+                    "label": {
+                        "label": "16:23",
+                        "iconBefore": "clock"
+                    },
+                    "type": "QUOTE",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false,
+                    "quote": {
+                        "componentProps": {
+                            "text": "Het was niet nodig om vandaag nog te trainen. We hebben gisteren alles gedaan wat we moesten doen. Vanochtend hebben we video gekeken en hebben we een wandeling gemaakt om nog wat te ontspannen.",
+                            "person": "Mike Thibault",
+                            "href": ""
+                        }
+                    }
+                },
+                {
+                    "id": "3088279",
+                    "timestamp": 1750602144675,
+                    "label": {
+                        "label": "16:22",
+                        "iconBefore": "clock"
+                    },
+                    "type": "MEDIAPLAYER",
+                    "title": "Bondscoach Thibault: \"Geen nood aan training vandaag\"",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false,
+                    "mediaplayer": {
+                        "componentProps": {
+                            "mediaReferences": [
+                                "pbs-pub-6c725eda-ffdd-4b7c-9d22-0fe9cf912f3f$vid-36224fb3-57db-4c26-a705-e5db33826a72"
+                            ],
+                            "title": "Bondscoach Thibault: \"Geen nood aan training vandaag\"",
+                            "type": "asset",
+                            "playerMode": "video",
+                            "aspectRatio": "16:9",
+                            "posterImageUrl": "//images.vrt.be/orig/2025/06/22/30d8dd8f-7b52-4e2d-be47-291c5b4ca70c.jpg",
+                            "aggregatorUrl": "https://media-services-public.vrt.be/vualto-video-aggregator-web/rest/external/v2",
+                            "cimId": "15zrEi9K5.psvXpTsF_ShYYh.Bipt6SfJLC52FIQIIv.f7",
+                            "mediaMetaDatas": [
+                                {
+                                    "cimMediaTracking": {
+                                        "programId": "vid-36224fb3-57db-4c26-a705-e5db33826a72",
+                                        "programName": "Bondscoach Thibault: \"Geen nood aan training vandaag\"",
+                                        "duration": 235,
+                                        "ct": "ce/tv",
+                                        "se": "sporza",
+                                        "st": "vid.tvi.frag.vod.free",
+                                        "tv": "vid-36224fb3-57db-4c26-a705-e5db33826a72"
+                                    },
+                                    "ebaContexts": [
+                                        {
+                                            "schema": "iglu:be.vrt/context_content_media/jsonschema/2-0-3",
+                                            "data": {
+                                                "medianame": "Bondscoach Thibault: \"Geen nood aan training vandaag\"",
+                                                "mediaid": "vid-36224fb3-57db-4c26-a705-e5db33826a72",
+                                                "medialength": 235060,
+                                                "mediatype": "video",
+                                                "mediasubtype": "fragment",
+                                                "streamtype": "ondemand",
+                                                "contentbrand": "sporza"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ],
+                            "showAds": true,
+                            "darkMode": false
+                        }
+                    }
+                },
+                {
+                    "id": "3088281",
+                    "timestamp": 1750602000000,
+                    "label": {
+                        "label": "16:20",
+                        "iconBefore": "clock"
+                    },
+                    "type": "QUOTE",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false,
+                    "quote": {
+                        "componentProps": {
+                            "text": "Elke match is anders. Het zal als een schaakpartij worden: gaandeweg pas je je aan. Beide teams hebben elkaar al goed kunnen scouten en zullen goed voorbereid zijn.",
+                            "person": "Mike Thibault",
+                            "href": ""
+                        }
+                    }
+                },
+                {
+                    "id": "3088275",
+                    "timestamp": 1750591395965,
+                    "label": {
+                        "label": "13:23",
+                        "iconBefore": "clock"
+                    },
+                    "type": "MEDIAPLAYER",
+                    "title": "Belgian Cats strijden tegen Tsjechië om groepswinst",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false,
+                    "mediaplayer": {
+                        "componentProps": {
+                            "mediaReferences": [
+                                "pbs-pub-6c725eda-ffdd-4b7c-9d22-0fe9cf912f3f$vid-bb48aa3b-a8bd-4e0d-8fae-db6df5879853"
+                            ],
+                            "title": "Belgian Cats strijden tegen Tsjechië om groepswinst",
+                            "type": "asset",
+                            "playerMode": "video",
+                            "aspectRatio": "16:9",
+                            "posterImageUrl": "//images.vrt.be/orig/2025/06/22/766743a5-f56a-4ff6-8b45-37a35aa48142.jpg",
+                            "aggregatorUrl": "https://media-services-public.vrt.be/vualto-video-aggregator-web/rest/external/v2",
+                            "cimId": "15zrEi9K5.psvXpTsF_ShYYh.Bipt6SfJLC52FIQIIv.f7",
+                            "mediaMetaDatas": [
+                                {
+                                    "cimMediaTracking": {
+                                        "programId": "vid-bb48aa3b-a8bd-4e0d-8fae-db6df5879853",
+                                        "programName": "Belgian Cats strijden tegen Tsjechië om groepswinst",
+                                        "duration": 205,
+                                        "ct": "ce/tv",
+                                        "se": "sporza",
+                                        "st": "vid.tvi.frag.vod.free",
+                                        "tv": "vid-bb48aa3b-a8bd-4e0d-8fae-db6df5879853"
+                                    },
+                                    "ebaContexts": [
+                                        {
+                                            "schema": "iglu:be.vrt/context_content_media/jsonschema/2-0-3",
+                                            "data": {
+                                                "medianame": "Belgian Cats strijden tegen Tsjechië om groepswinst",
+                                                "mediaid": "vid-bb48aa3b-a8bd-4e0d-8fae-db6df5879853",
+                                                "medialength": 205190,
+                                                "mediatype": "video",
+                                                "mediasubtype": "fragment",
+                                                "streamtype": "ondemand",
+                                                "contentbrand": "sporza"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ],
+                            "showAds": true,
+                            "darkMode": false
+                        }
+                    }
+                },
+                {
+                    "id": "3088274",
+                    "timestamp": 1750583395218,
+                    "label": {
+                        "label": "11:09",
+                        "iconBefore": "clock"
+                    },
+                    "type": "QUOTE",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false,
+                    "quote": {
+                        "componentProps": {
+                            "text": "De basisvijf (Meesseman, Delaere, Vanloo, Allemand en Linskens) kan het verschil maken, maar zij hebben ook nood aan rust. Aan het einde van een kampioenschap kan dat een rol spelen. ",
+                            "person": "Commentator Christophe Vandegoor",
+                            "href": ""
+                        }
+                    }
+                },
+                {
+                    "id": "3088273",
+                    "timestamp": 1750583242329,
+                    "label": {
+                        "label": "11:07",
+                        "iconBefore": "clock"
+                    },
+                    "type": "QUOTE",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false,
+                    "quote": {
+                        "componentProps": {
+                            "text": "Of de bank van de Belgian Cats sterk genoeg is, blijft een heikel thema. Qua aantal punten is het te weinig. Men werkt daar al jaren aan. Nastja Claessens is hier wel op de afspraak, maar ze zal moeten bewijzen dat ze het tegen een sterkere tegenstander ook kan doen. ",
+                            "person": "Commentator Christophe Vandegoor",
+                            "href": ""
+                        }
+                    }
+                },
+                {
+                    "id": "3088272",
+                    "timestamp": 1750582893529,
+                    "label": {
+                        "label": "11:01",
+                        "iconBefore": "clock"
+                    },
+                    "type": "QUOTE",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false,
+                    "quote": {
+                        "componentProps": {
+                            "text": "Emma Meesseman pakte na Montenegro uit met scherpe woorden: \"Het moet veel beter willen we onze titel verdedigen.\" Dat doet ze niet vaak, dus is het belangrijk. Ik vind het goed dat ze iedereen op scherp zet. Naar haar luistert iedereen bij de Cats door haar status en leadership by example.",
+                            "person": "Commentator Christophe Vandegoor",
+                            "href": ""
+                        }
+                    }
+                },
+                {
+                    "id": "3088271",
+                    "timestamp": 1750582819127,
+                    "label": {
+                        "label": "11:00",
+                        "iconBefore": "clock"
+                    },
+                    "type": "QUOTE",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false,
+                    "quote": {
+                        "componentProps": {
+                            "text": "Het wordt grote ambiance. Tsjechië wordt gesteund door een zeer enthousiast thuispubliek van 3.000 toeschouwers. Tsjechië zag ook dat België niet altijd sprankelde, het zal supergemotiveerd zijn.",
+                            "person": "Commentator Christophe Vandegoor",
+                            "href": ""
+                        }
+                    }
+                },
+                {
+                    "id": "3088270",
+                    "timestamp": 1750580808301,
+                    "label": {
+                        "label": "10:26",
+                        "iconBefore": "clock"
+                    },
+                    "type": "MEDIAPLAYER",
+                    "title": "Mooie scores van de Belgian Cats tegen Portugal en Montenegro",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false,
+                    "mediaplayer": {
+                        "componentProps": {
+                            "mediaReferences": [
+                                "pbs-pub-6c725eda-ffdd-4b7c-9d22-0fe9cf912f3f$vid-0637cbbe-1257-4a0c-9172-5806ccf4d28d"
+                            ],
+                            "title": "Mooie scores van de Belgian Cats tegen Portugal en Montenegro",
+                            "type": "asset",
+                            "playerMode": "video",
+                            "aspectRatio": "16:9",
+                            "posterImageUrl": "//images.vrt.be/orig/2025/06/22/e602ff89-ed24-4964-a33c-3a56f602a4c3.jpg",
+                            "aggregatorUrl": "https://media-services-public.vrt.be/vualto-video-aggregator-web/rest/external/v2",
+                            "cimId": "15zrEi9K5.psvXpTsF_ShYYh.Bipt6SfJLC52FIQIIv.f7",
+                            "mediaMetaDatas": [
+                                {
+                                    "cimMediaTracking": {
+                                        "programId": "vid-0637cbbe-1257-4a0c-9172-5806ccf4d28d",
+                                        "programName": "Mooie scores van de Belgian Cats tegen Portugal en Montenegro",
+                                        "duration": 35,
+                                        "ct": "ce/tv",
+                                        "se": "sporza",
+                                        "st": "vid.tvi.frag.vod.free",
+                                        "tv": "vid-0637cbbe-1257-4a0c-9172-5806ccf4d28d"
+                                    },
+                                    "ebaContexts": [
+                                        {
+                                            "schema": "iglu:be.vrt/context_content_media/jsonschema/2-0-3",
+                                            "data": {
+                                                "medianame": "Mooie scores van de Belgian Cats tegen Portugal en Montenegro",
+                                                "mediaid": "vid-0637cbbe-1257-4a0c-9172-5806ccf4d28d",
+                                                "medialength": 35200,
+                                                "mediatype": "video",
+                                                "mediasubtype": "fragment",
+                                                "streamtype": "ondemand",
+                                                "contentbrand": "sporza"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ],
+                            "showAds": true,
+                            "darkMode": false
+                        }
+                    }
+                },
+                {
+                    "id": "3088269",
+                    "timestamp": 1750573301163,
+                    "label": {
+                        "label": "08:21",
+                        "iconBefore": "clock"
+                    },
+                    "type": "BASE",
+                    "title": "Live op Sporza",
+                    "text": "<p>We zijn er straks bij vanuit Brno op al onze kanalen. Volg België - Tsjechië LIVE op deze pagina, op VRT1 en in Sporza op Radio 1.<br><br>Opworp om 17.30 uur.</p>",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false
+                },
+                {
+                    "id": "3088268",
+                    "timestamp": 1750572900000,
+                    "label": {
+                        "label": "08:15",
+                        "iconBefore": "clock"
+                    },
+                    "type": "ARTICLE",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false,
+                    "article": {
+                        "componentType": "story-card",
+                        "componentProps": {
+                            "link": "https://sporza.be/nl/2025/06/20/met-groepswinst-en-voorkeursroute-richting-ek-finale-als-inzet-tsjechie-wordt-eerste-echte-test-voor-belgian-cats~1750414356649/",
+                            "image": "//images.vrt.be/orig/2025/06/19/5c13bee0-d2e4-4b68-a76f-6eeedd484c5f.jpg",
+                            "label": "EK basketbal",
+                            "title": "Met groepswinst én voorkeursroute richting EK-finale als inzet: Tsjechië wordt eerste echte test voor Belgian Cats",
+                            "text": "Na hapjes Portugal en Montenegro krijgen de Belgian Cats zondag met Tsjechië voor het eerst dit EK een stevige kluif op het bord. De collectief sterke Tsjechen hebben in Brno bovendien de steun van het thuispubliek in een wedstrijd die de winnaar van de groep zal bepalen. En ook wie een interessantere route krijgt richting EK-finale.",
+                            "tags": [
+                                {
+                                    "iconBefore": "clock",
+                                    "text": "zondag 22 juni",
+                                    "desktopOnly": true
+                                },
+                                {
+                                    "iconBefore": "clock",
+                                    "text": "zo 22 jun.",
+                                    "mobileOnly": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "type": "SEPARATOR",
+                    "label": {
+                        "label": "21/06/25"
+                    }
+                },
+                {
+                    "id": "3088267",
+                    "timestamp": 1750529439729,
+                    "label": {
+                        "label": "20:10",
+                        "iconBefore": "clock"
+                    },
+                    "type": "BASE",
+                    "title": "Agressie",
+                    "text": "<p>Na de wisselvallige wedstrijd van vrijdagavond tegen Montenegro gaan de Belgian Cats tegen Tsjechië niet enkel op zoek naar groepswinst, maar ook naar een referentiezege om hun EK een extra boost te geven voor de knock-outfase. Vandaag kregen ze al een scoutingverslag van hun tegenstander: wat mogen we verwachten van Tsjechië?<br><br>\"Het is een ploeg met veel ervaring, met heel wat speelsters die actief zijn in de EuroLeague\", legt Antonia Delaere uit. \"Daarnaast is het een compleet team met twee grote speelsters en enkele goede shotters. We zullen vanaf het begin dus superagressief moeten zijn.\"<br><br>\"Zeker defensief, want we hebben tegen Portugal gezien dat daar toch de sleutel ligt tegen hen. En ons snelle en vloeiende spel met veel assists moeten we ook opnieuw terugbrengen. Dan kunnen we het ze echt moeilijk maken. Het is goed dat we deze match nog hebben voor de kwartfinale, want die zal ons zeker op scherp zetten.\"</p>",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false
+                },
+                {
+                    "id": "3088266",
+                    "timestamp": 1750529395819,
+                    "label": {
+                        "label": "20:09",
+                        "iconBefore": "clock"
+                    },
+                    "type": "MEDIAPLAYER",
+                    "title": "Bekijk het volledige interview met Delaere:",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false,
+                    "mediaplayer": {
+                        "componentProps": {
+                            "mediaReferences": [
+                                "pbs-pub-6c725eda-ffdd-4b7c-9d22-0fe9cf912f3f$vid-874d3730-d402-427f-917a-07f851a900b3"
+                            ],
+                            "title": "Bekijk het volledige interview met Delaere:",
+                            "type": "asset",
+                            "playerMode": "video",
+                            "aspectRatio": "16:9",
+                            "posterImageUrl": "//images.vrt.be/orig/2025/06/21/8dc91e1c-03d9-493a-bc49-0ef4413595f8.jpg",
+                            "aggregatorUrl": "https://media-services-public.vrt.be/vualto-video-aggregator-web/rest/external/v2",
+                            "cimId": "15zrEi9K5.psvXpTsF_ShYYh.Bipt6SfJLC52FIQIIv.f7",
+                            "mediaMetaDatas": [
+                                {
+                                    "cimMediaTracking": {
+                                        "programId": "vid-874d3730-d402-427f-917a-07f851a900b3",
+                                        "programName": "Bekijk het volledige interview met Delaere:",
+                                        "duration": 0,
+                                        "ct": "ce/tv",
+                                        "se": "sporza",
+                                        "st": "vid.tvi.ep.vod.free",
+                                        "tv": "vid-874d3730-d402-427f-917a-07f851a900b3"
+                                    },
+                                    "ebaContexts": [
+                                        {
+                                            "schema": "iglu:be.vrt/context_content_media/jsonschema/2-0-3",
+                                            "data": {
+                                                "medianame": "Bekijk het volledige interview met Delaere:",
+                                                "mediaid": "vid-874d3730-d402-427f-917a-07f851a900b3",
+                                                "medialength": 0,
+                                                "mediatype": "video",
+                                                "mediasubtype": "fragment",
+                                                "streamtype": "ondemand",
+                                                "contentbrand": "sporza"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ],
+                            "showAds": false,
+                            "darkMode": false
+                        }
+                    }
+                },
+                {
+                    "id": "3088265",
+                    "timestamp": 1750529378059,
+                    "label": {
+                        "label": "20:09",
+                        "iconBefore": "clock"
+                    },
+                    "type": "QUOTE",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false,
+                    "quote": {
+                        "componentProps": {
+                            "text": "We weten dat het veel beter moet, en morgenavond zullen we die volgende stap zetten tegen Tsjechië.",
+                            "person": "Julie Allemand",
+                            "href": ""
+                        }
+                    }
+                },
+                {
+                    "id": "3088264",
+                    "timestamp": 1750529353631,
+                    "label": {
+                        "label": "20:09",
+                        "iconBefore": "clock"
+                    },
+                    "type": "MEDIAPLAYER",
+                    "title": "Bekijk het volledige interview met Allemand:",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false,
+                    "mediaplayer": {
+                        "componentProps": {
+                            "mediaReferences": [
+                                "pbs-pub-6c725eda-ffdd-4b7c-9d22-0fe9cf912f3f$vid-e6dd4735-782b-490f-9a47-35a13748eb11"
+                            ],
+                            "title": "Bekijk het volledige interview met Allemand:",
+                            "type": "asset",
+                            "playerMode": "video",
+                            "aspectRatio": "16:9",
+                            "posterImageUrl": "//images.vrt.be/orig/2025/06/21/0f2c7875-3fe9-4884-8c22-57ddea87c84f.jpg",
+                            "aggregatorUrl": "https://media-services-public.vrt.be/vualto-video-aggregator-web/rest/external/v2",
+                            "cimId": "15zrEi9K5.psvXpTsF_ShYYh.Bipt6SfJLC52FIQIIv.f7",
+                            "mediaMetaDatas": [
+                                {
+                                    "cimMediaTracking": {
+                                        "programId": "vid-e6dd4735-782b-490f-9a47-35a13748eb11",
+                                        "programName": "Bekijk het volledige interview met Allemand:",
+                                        "duration": 176,
+                                        "ct": "ce/tv",
+                                        "se": "sporza",
+                                        "st": "vid.tvi.frag.vod.free",
+                                        "tv": "vid-e6dd4735-782b-490f-9a47-35a13748eb11"
+                                    },
+                                    "ebaContexts": [
+                                        {
+                                            "schema": "iglu:be.vrt/context_content_media/jsonschema/2-0-3",
+                                            "data": {
+                                                "medianame": "Bekijk het volledige interview met Allemand:",
+                                                "mediaid": "vid-e6dd4735-782b-490f-9a47-35a13748eb11",
+                                                "medialength": 176160,
+                                                "mediatype": "video",
+                                                "mediasubtype": "fragment",
+                                                "streamtype": "ondemand",
+                                                "contentbrand": "sporza"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ],
+                            "showAds": true,
+                            "darkMode": false
+                        }
+                    }
+                },
+                {
+                    "id": "3088261",
+                    "timestamp": 1750529170891,
+                    "label": {
+                        "label": "20:06",
+                        "iconBefore": "clock"
+                    },
+                    "type": "BASE",
+                    "title": "Voor groepswinst",
+                    "text": "<p>De kwartfinale op het EK basketbal is al een zekerheidje voor de Belgian Cats. Maar wie ze daarin treffen, is nog niet duidelijk.&nbsp;Daarvoor zal de slotwedstrijd tegen Tsjechië een belangrijke factor spelen. <br><br>Bij winst tegen Tsjechië eindigen de Belgian Cats bovenaan in hun groep. In de kwartfinales treffen ze dan de nummer 2 uit groep D. Wie dat wordt, is nog koffiedik kijken – die poule ligt volledig open –, maar als de logica gerespecteerd wordt, vermijden ze koploper Spanje. Een van de underdogs dit EK.<br><br>Maar belangrijker nog: bij groepswinst vermijden de Cats topfavoriet Frankrijk tot de finale. Dat zou ook meteen een mogelijke kans op revanche betekenen voor de verloren halve finale op de Olympische Spelen</p>",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false
+                },
+                {
+                    "id": "3088260",
+                    "timestamp": 1750529151645,
+                    "label": {
+                        "label": "20:05",
+                        "iconBefore": "clock"
+                    },
+                    "type": "ARTICLE",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false,
+                    "article": {
+                        "componentType": "story-card",
+                        "componentProps": {
+                            "link": "https://sporza.be/nl/2025/06/20/zelfs-belangrijk-tot-helemaal-in-de-finale-waarom-belgian-cats-zondag-maar-beter-winnen-tegen-tsjechie~1750451359515/",
+                            "image": "//images.vrt.be/orig/2025/06/20/f6dce2f0-e757-4f46-89bc-6f4babe03373.jpg",
+                            "label": "EK basketbal",
+                            "title": "Zelfs belangrijk tot helemaal in de finale: waarom Belgian Cats zondag maar beter winnen tegen Tsjechië",
+                            "text": "De kwartfinale op het EK basketbal is een zekerheidje voor de Belgian Cats. Maar wie ze daarin treffen, is nog niet duidelijk. Daarvoor zal de slotwedstrijd tegen Tsjechië een belangrijke factor spelen. Maar daar stopt het belang van die laatste groepswedstrijd niet - zo liggen de kaarten voor de Cats.",
+                            "tags": [
+                                {
+                                    "iconBefore": "clock",
+                                    "text": "vrijdag 20 juni",
+                                    "desktopOnly": true
+                                },
+                                {
+                                    "iconBefore": "clock",
+                                    "text": "vr 20 jun.",
+                                    "mobileOnly": true
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": "3088263",
+                    "timestamp": 1750528920000,
+                    "label": {
+                        "label": "20:02",
+                        "iconBefore": "clock"
+                    },
+                    "type": "QUOTE",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false,
+                    "quote": {
+                        "componentProps": {
+                            "text": "Ik zie nog veel groeimarge. Dat zal nodig zijn, want anders komen we in de problemen tegen Tsjechië. Dat wordt normaal gezien onze referentiewedstrijd.  ",
+                            "person": "Emma Meesseman",
+                            "href": ""
+                        }
+                    }
+                },
+                {
+                    "id": "3088262",
+                    "timestamp": 1750528800000,
+                    "label": {
+                        "label": "20:00",
+                        "iconBefore": "clock"
+                    },
+                    "type": "ARTICLE",
+                    "isEditable": true,
+                    "isBelgian": false,
+                    "isHighlighted": false,
+                    "article": {
+                        "componentType": "story-card",
+                        "componentProps": {
+                            "link": "https://sporza.be/nl/2025/06/20/-hier-moeten-we-niet-mee-pronken-emma-meesseman-streng-voor-belgian-cats-na-wedstrijd-die-niet-gelukkig-stemt~1750452244418/",
+                            "image": "//images.vrt.be/orig/2025/06/20/d4c9e2cb-8334-4817-86cf-adbd15356f0b.jpg",
+                            "label": "EK basketbal",
+                            "title": "\"Hier moeten we niet mee pronken\": Emma Meesseman streng voor Belgian Cats na \"wedstrijd die niet gelukkig stemt\"",
+                            "text": "Klare taal van Emma Meesseman na Montenegro. De Belgian Cats wonnen relatief probleemloos en stelden de kwartfinales vanavond al veilig, maar dat was voor de metronoom van de Belgen geen reden tot euforie. Integendeel, de impasse na de kanonstart was een ferme doorn in het oog van Meesseman. \"Hier moeten we niet te veel mee pronken\", was ze duidelijk.",
+                            "tags": [
+                                {
+                                    "iconBefore": "clock",
+                                    "text": "vrijdag 20 juni",
+                                    "desktopOnly": true
+                                },
+                                {
+                                    "iconBefore": "clock",
+                                    "text": "vr 20 jun.",
+                                    "mobileOnly": true
+                                }
+                            ]
+                        }
+                    }
+                }
+            ],
+            "sport": "basketball"
+        },
+        "groups": false,
+        "url": "https://sporza.be/nl/sport/generic/~3320485/",
+        "sportApiUrl": "https://api.sporza.be/web/content/generic/matches/3320485",
+        "heading": "speeldag undefined",
+        "competitionName": "EuroBasket Women 2025: België - Tsjechië",
+        "home": [
+            {
+                "name": "België",
+                "logoUrl": "https://api.sporza.be/data/images/flags/bel.svg.png"
+            }
+        ],
+        "away": [
+            {
+                "name": "Tsjechië",
+                "logoUrl": "https://api.sporza.be/data/images/flags/cze.svg.png"
+            }
+        ],
+        "player": {
+            "isAway": false
+        },
+        "sets": [
+            {
+                "label": "q1",
+                "home": 17,
+                "away": 17
+            },
+            {
+                "label": "q2",
+                "home": 24,
+                "away": 20
+            },
+            {
+                "label": "q3",
+                "home": 17,
+                "away": 9
+            },
+            {
+                "label": "q4",
+                "home": 14,
+                "away": 14
+            },
+            {
+                "label": "score",
+                "home": 72,
+                "away": 60
+            }
+        ]
+    }
+}

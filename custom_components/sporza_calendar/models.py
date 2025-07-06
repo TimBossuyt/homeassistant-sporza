@@ -45,9 +45,9 @@ class Game:
 class CyclingGame(Game):
     """Class representing a cycling game."""
 
-    def __init__(self, game_id: str, metadata: dict) -> None:
+    def __init__(self, match_id: str, metadata: dict) -> None:
         """Initialize the cycling game with its specific attributes."""
-        super().__init__(game_id, "cycling", metadata)
+        super().__init__(match_id, "wielrennen", metadata)
         self.stage_name = metadata.get("stage", "")
         self.competition_name = metadata.get("competitionName", "")
         self.game_type = metadata.get("type", "")
@@ -121,12 +121,11 @@ class SoccerGame(Game):
 
     def __init__(self, match_id: str, metadata: dict) -> None:
         """Initialize the soccer game with its specific attributes."""
-        super().__init__(match_id, "soccer", metadata)
+        super().__init__(match_id, "voetbal", metadata)
         self.home_team = metadata["home"]["name"]
         self.away_team = metadata["away"]["name"]
         self.competition_name = metadata.get("competitionName", "")
         self.url = metadata.get("url", "")
-
         ## ISSUE: The timestamps of soccer games are not available
 
     @property
@@ -149,7 +148,7 @@ class FormulaOneGame(Game):
 
     def __init__(self, match_id: str, metadata: dict) -> None:
         """Initialize the Formula 1 game with its specific attributes."""
-        super().__init__(match_id, "formula1", metadata)
+        super().__init__(match_id, "formule1", metadata)
         self.competition_name = metadata.get("competitionName", "")
         self.url = metadata.get("url", "")
         self.rounds = metadata.get("rounds")
@@ -195,4 +194,33 @@ class FormulaOneGame(Game):
             f"📍 Locatie: {self.location}\n"
             f"🔄 Ronden: {rounds}\n"
             f"🔗 Meer info: {self.url or 'Geen URL'}"
+        )
+
+
+class TennisGame(Game):
+    """Class representing a tennis game."""
+
+    def __init__(self, match_id: str, metadata: dict) -> None:
+        """Initialize the tennis game with its specific attributes."""
+        super().__init__(match_id, "tennis", metadata)
+        self.competition_name = metadata.get("competitionName", "")
+        self.home_player = metadata["home"][0]["name"]
+        self.away_player = metadata["away"][0]["name"]
+        self.url = metadata.get("url", "")
+        self.sport = "tennis"
+
+    @property
+    def name(self) -> str:
+        """Return a concise summary name for calendar display."""
+        return (
+            f"🎾 {self.competition_name} - {self.home_player} vs {self.away_player}"
+        )
+
+    @property
+    def description(self) -> str:
+        """Return a formatted description of the tennis game, with emojis."""
+        return (
+            f"🎾 {self.competition_name}:\n"
+            f"👤 Spelers: {self.home_player} vs {self.away_player}\n"
+            f"🔗 Meer info: {self.url or 'Geen URL'}\n"
         )

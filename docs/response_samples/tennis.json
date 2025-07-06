@@ -1,0 +1,46 @@
+{
+    "componentProps": {
+        "matchId": "3341232",
+        "highlight": false,
+        "sport": "tennis",
+        "status": "END",
+        "label": "einde",
+        "ariaLabel": "Maya Joint tegen Ons Jabeur, afgelopen, 2, 0",
+        "timeline": {
+            "label": "liveblog",
+            "sport": "tennis"
+        },
+        "url": "https://sporza.be/nl/sport/tennis/~3341232/",
+        "interval": 10,
+        "sportApiUrl": "https://api.sporza.be/web/content/tennis/matches/3341232",
+        "competitionName": "Lexus Eastbourne Open",
+        "home": [
+            {
+                "name": "Maya Joint",
+                "logoUrl": "https://api.sporza.be/data/images/flags/aus.svg.png",
+                "rankingPosition": 51,
+                "winner": true
+            }
+        ],
+        "away": [
+            {
+                "name": "Ons Jabeur",
+                "logoUrl": "https://api.sporza.be/data/images/flags/tun.svg.png",
+                "rankingPosition": 59
+            }
+        ],
+        "sets": [
+            {
+                "label": "set 1",
+                "home": 7,
+                "away": 5
+            },
+            {
+                "label": "set 2",
+                "home": 6,
+                "away": 2
+            }
+        ]
+    }
+}
+

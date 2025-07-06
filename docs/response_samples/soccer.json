@@ -1,0 +1,157 @@
+{
+    "componentType": "scoreboard",
+    "componentProps": {
+        "matchId": 3332652,
+        "highlight": false,
+        "sport": "soccer",
+        "status": "LIVE",
+        "label": "13'",
+        "ariaLabel": "Atlético Madrid tegen Botafogo, live, 0, 0",
+        "timeline": {
+            "label": "liveblog",
+            "type": "FULL",
+            "items": [
+                {
+                    "id": "5476155",
+                    "timestamp": 1750705294000,
+                    "label": {
+                        "label": "1' eerste helft",
+                        "iconBefore": "clock"
+                    },
+                    "type": "SEPARATOR",
+                    "owner": "NEUTRAL",
+                    "phase": "eerste helft",
+                    "isEditable": false
+                }
+            ],
+            "sport": "soccer"
+        },
+        "eventSets": [
+            {
+                "items": [],
+                "progress": 27
+            },
+            {
+                "items": []
+            }
+        ],
+        "meta": "FIFA Club World Cup - speeldag 3 - 23/06/25 - 21:01",
+        "goals": {
+            "caption": "Doelpunten",
+            "data": [],
+            "columns": [
+                {
+                    "accessorKey": "time",
+                    "type": "Number",
+                    "size": 10,
+                    "typeOptions": {
+                        "mobileOnly": true
+                    }
+                },
+                {
+                    "accessorKey": "icon",
+                    "type": "Icon",
+                    "size": 10,
+                    "typeOptions": {
+                        "iconSize": 24,
+                        "color": "black",
+                        "mobileOnly": true
+                    }
+                },
+                {
+                    "accessorKey": "player",
+                    "type": "Link",
+                    "typeOptions": {
+                        "mobileOnly": true
+                    }
+                },
+                {
+                    "accessorKey": "homeTime",
+                    "type": "Number",
+                    "size": 10,
+                    "typeOptions": {
+                        "desktopOnly": true
+                    }
+                },
+                {
+                    "accessorKey": "homeIcon",
+                    "type": "Icon",
+                    "size": 10,
+                    "typeOptions": {
+                        "iconSize": 24,
+                        "color": "black",
+                        "desktopOnly": true
+                    }
+                },
+                {
+                    "accessorKey": "homePlayer",
+                    "type": "Link",
+                    "size": 200,
+                    "typeOptions": {
+                        "desktopOnly": true
+                    }
+                },
+                {
+                    "accessorKey": "score",
+                    "type": "Number",
+                    "typeOptions": {
+                        "align": "center"
+                    }
+                },
+                {
+                    "accessorKey": "awayPlayer",
+                    "type": "Link",
+                    "size": 200,
+                    "typeOptions": {
+                        "align": "right",
+                        "desktopOnly": true
+                    }
+                },
+                {
+                    "accessorKey": "awayIcon",
+                    "type": "Icon",
+                    "size": 10,
+                    "typeOptions": {
+                        "iconSize": 24,
+                        "color": "black",
+                        "desktopOnly": true
+                    }
+                },
+                {
+                    "accessorKey": "awayTime",
+                    "type": "Number",
+                    "size": 10,
+                    "typeOptions": {
+                        "align": "right",
+                        "desktopOnly": true
+                    }
+                }
+            ]
+        },
+        "channels": [],
+        "url": "https://sporza.be/nl/sport/voetbal/~3332652/",
+        "interval": 10,
+        "sportApiUrl": "https://api.sporza.be/web/content/soccer/matches/3332652",
+        "heading": "speeldag 3",
+        "competitionName": "FIFA Club World Cup",
+        "home": {
+            "name": "Atlético Madrid",
+            "shortName": "ATM",
+            "logoUrl": "https://images.vrt.be/orig/sporza/soccer/team/default/4012.png?updated=1740130374000",
+            "href": "https://sporza.be/nl/tag/voetbal/ploegen/~4012"
+        },
+        "away": {
+            "name": "Botafogo",
+            "shortName": "BOT",
+            "logoUrl": "https://images.vrt.be/orig/sporza/soccer/team/default/100112.png?updated=1742407203000",
+            "href": "https://sporza.be/nl/tag/voetbal/ploegen/~100112"
+        },
+        "score": {
+            "home": 0,
+            "away": 0
+        },
+        "player": {
+            "isAway": false
+        }
+    }
+}

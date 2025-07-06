@@ -16,7 +16,7 @@ from homeassistant.helpers.entity_platform import AddEntitiesCallback
 from homeassistant.helpers.update_coordinator import CoordinatorEntity
 from homeassistant.util import dt as dt_util
 
-from .const import DOMAIN
+from .const import DOMAIN, LABEL_OBJECT_MAPPING
 from .coordinator import SporzaCalendarDataUpdateCoordinator
 
 _LOGGER = logging.getLogger(__name__)
@@ -29,17 +29,30 @@ async def async_setup_entry(
 ) -> None:
     """Set up the Sporza Calendar."""
     coordinator = hass.data[DOMAIN][config_entry.entry_id]
-    async_add_entities([SporzaCalendar(coordinator)], update_before_add=True)
+
+    all_sports = LABEL_OBJECT_MAPPING.keys()
+
+    calendars = []
+    for sport in all_sports:
+        # Create a calendar entity for each sport
+        calendar = SporzaCalendar(coordinator, sport)
+        calendars.append(calendar)
+
+    async_add_entities(calendars, update_before_add=True)
 
 
 class SporzaCalendar(CoordinatorEntity, CalendarEntity):
     """Representation of a Sporza Calendar."""
 
-    def __init__(self, coordinator: SporzaCalendarDataUpdateCoordinator) -> None:
+    def __init__(
+        self, coordinator: SporzaCalendarDataUpdateCoordinator, sport: str
+    ) -> None:
         """Initialize the calendar."""
         super().__init__(coordinator)
-        self._attr_name = "Sporza Calendar"
-        self._attr_unique_id = f"{DOMAIN}_calendar"
+        self._attr_name = f"Sporza {sport.capitalize()} Calendar"
+        self._attr_unique_id = f"{DOMAIN}_{sport}_calendar"
+
+        self.sport = sport
 
     @property
     def event(self) -> CalendarEvent | None:
@@ -92,6 +105,10 @@ class SporzaCalendar(CoordinatorEntity, CalendarEntity):
             # (Should be always true as the API takes care of this)
             if start_date.date() <= event_date.date() <= end_date.date():
                 for game in game_objects:
+                    # Skip if the game is not of interest
+                    if game.sport != self.sport:
+                        continue
+
                     # Create a unique UUID
                     event_date_str = event_date.strftime("%Y-%m-%d")
                     unique_id = f"sporza_{game.sport}_{game.match_id}_{event_date_str}"
