@@ -1,10 +1,13 @@
 """Defines the data model for the different sport games."""
 
+import logging
 from datetime import time
 from zoneinfo import ZoneInfo
 
 ## REMARK: All time attributes should be have timezone Europe/Brussels
 ## This is the timezone used by Sporza for all game times.
+
+_LOGGER = logging.getLogger(__name__)
 
 
 class Game:
@@ -126,7 +129,21 @@ class SoccerGame(Game):
         self.away_team = metadata["away"]["name"]
         self.competition_name = metadata.get("competitionName", "")
         self.url = metadata.get("url", "")
-        ## ISSUE: The timestamps of soccer games are not available
+        self.meta = metadata.get("meta", "")
+        self._start_time = None
+        self._end_time = None
+
+        self._parse_times_from_meta()
+
+    @property
+    def start_time(self) -> time | None:
+        """Return the start time of the soccer game if available."""
+        return self._start_time or super().start_time
+
+    @property
+    def end_time(self) -> time | None:
+        """Return the end time of the soccer game if available."""
+        return self._end_time or super().end_time
 
     @property
     def name(self) -> str:
@@ -140,6 +157,31 @@ class SoccerGame(Game):
             f"⚽️ {self.competition_name}\n"
             f"🏟️ {self.home_team} vs {self.away_team}\n"
             f"🔗 Meer info: {self.url or 'Geen URL'}"
+        )
+
+    def _parse_times_from_meta(self) -> None:
+        """Parse start and end times from metadata."""
+        # Example:
+        # "meta": "UEFA Champions League - speeldag 1 - 08/07/25 - 18:00"
+
+        try:
+            parts = self.meta.split(" - ")
+            if len(parts) >= 4:  # noqa: PLR2004
+                time_part = parts[3]
+                hour, minute = map(int, time_part.split(":"))
+
+        except (ValueError, IndexError):
+            error = f"Failed to parse times from meta: {self.meta}. "
+            error += "Using default start and end times."
+            _LOGGER.warning(error)
+            return
+
+        self._start_time = time(
+                    hour, minute, tzinfo=ZoneInfo("Europe/Brussels")
+        )
+        # Assuming the game lasts 10 minutes for simplicity
+        self._end_time = time(
+            hour, minute+10, tzinfo=ZoneInfo("Europe/Brussels")
         )
 
 
@@ -212,9 +254,7 @@ class TennisGame(Game):
     @property
     def name(self) -> str:
         """Return a concise summary name for calendar display."""
-        return (
-            f"🎾 {self.competition_name} - {self.home_player} vs {self.away_player}"
-        )
+        return f"🎾 {self.competition_name}: {self.home_player} vs {self.away_player}"
 
     @property
     def description(self) -> str:
