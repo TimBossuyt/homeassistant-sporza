@@ -176,13 +176,9 @@ class SoccerGame(Game):
             _LOGGER.warning(error)
             return
 
-        self._start_time = time(
-                    hour, minute, tzinfo=ZoneInfo("Europe/Brussels")
-        )
+        self._start_time = time(hour, minute, tzinfo=ZoneInfo("Europe/Brussels"))
         # Assuming the game lasts 10 minutes for simplicity
-        self._end_time = time(
-            hour, minute+10, tzinfo=ZoneInfo("Europe/Brussels")
-        )
+        self._end_time = time(hour, minute + 10, tzinfo=ZoneInfo("Europe/Brussels"))
 
 
 class FormulaOneGame(Game):
@@ -250,6 +246,8 @@ class TennisGame(Game):
         self.away_player = metadata["away"][0]["name"]
         self.url = metadata.get("url", "")
         self.sport = "tennis"
+
+        ## ISSUE: The API does not provide start and end times for tennis games.
 
     @property
     def name(self) -> str:
