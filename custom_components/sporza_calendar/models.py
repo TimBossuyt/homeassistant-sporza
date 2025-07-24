@@ -1,7 +1,7 @@
 """Defines the data model for the different sport games."""
 
 import logging
-from datetime import time
+from datetime import datetime, time, timedelta
 from zoneinfo import ZoneInfo
 
 ## REMARK: All time attributes should be have timezone Europe/Brussels
@@ -161,24 +161,29 @@ class SoccerGame(Game):
 
     def _parse_times_from_meta(self) -> None:
         """Parse start and end times from metadata."""
-        # Example:
-        # "meta": "UEFA Champions League - speeldag 1 - 08/07/25 - 18:00"
-
         try:
             parts = self.meta.split(" - ")
             if len(parts) >= 4:  # noqa: PLR2004
                 time_part = parts[3]
                 hour, minute = map(int, time_part.split(":"))
 
-        except (ValueError, IndexError):
-            error = f"Failed to parse times from meta: {self.meta}. "
-            error += "Using default start and end times."
-            _LOGGER.warning(error)
-            return
+                # Create a datetime object to handle overflow
+                start_dt = datetime(
+                    2000, 1, 1, hour, minute, tzinfo=ZoneInfo("Europe/Brussels")
+                )
+                end_dt = start_dt + timedelta(minutes=10)
 
-        self._start_time = time(hour, minute, tzinfo=ZoneInfo("Europe/Brussels"))
-        # Assuming the game lasts 10 minutes for simplicity
-        self._end_time = time(hour, minute + 10, tzinfo=ZoneInfo("Europe/Brussels"))
+                self._start_time = start_dt.timetz()
+                self._end_time = end_dt.timetz()
+            else:
+                msg = "Insufficient parts in meta"
+                raise ValueError(msg)  # noqa: TRY301
+        except (ValueError, IndexError) as e:
+            msg = (
+                f"Failed to parse times from meta: {self.meta}",
+                f"Using default times. Error: {e}",
+            )
+            _LOGGER.warning(msg)
 
 
 class FormulaOneGame(Game):
